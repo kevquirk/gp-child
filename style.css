@@ -19,6 +19,7 @@
 h2.gb-headline-074e1a3b a {
   padding: .5rem 1rem;
   transition: none;
+  display: inline-block;
 }
 h2.gb-headline-074e1a3b a:hover {
 	background: #212121;
