@@ -57,6 +57,10 @@ h2.gb-headline-074e1a3b a:hover {
   transform: rotate(5deg);
 }
 
+.main-navigation {
+  border-bottom: 3px solid #212121;
+}
+
 .main-title a {
   padding: 0 .5rem;
 }
