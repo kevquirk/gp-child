@@ -66,7 +66,7 @@ h2.gb-headline-074e1a3b a:hover {
 /* Typography */
 .inside-article a {
   text-decoration: underline;
-  text-decoration-line: .15rem;
+  text-decoration-thickness: .15rem;
 }
 
 .inside-article a:hover {
