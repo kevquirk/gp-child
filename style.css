@@ -113,8 +113,18 @@ input {
 .nav-links {
   font-size: 1.4rem;
   font-weight: bold;
+  text-align: center;
   color: #212121;
   border-top: 3px solid #212121;
   padding: 2rem 0;
   border-bottom: 3px solid #212121;
+}
+
+.nav-links a {
+  color: #212121;
+}
+
+.page-numbers.current,
+.page-numbers:hover {
+  color: #585858;
 }
