@@ -7,3 +7,15 @@
  Template:     generatepress
  Version:      0.1
 */
+
+/* Centre homepage avatar */
+.site-avatar {
+  margin: 0 auto;
+  display: block;
+	padding: 2rem 0;
+}
+
+/* Blog list hover effect */
+h2.gb-headline-074e1a3b a:hover {
+	background: lightgray;
+}
