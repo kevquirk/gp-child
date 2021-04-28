@@ -24,4 +24,9 @@ h2.gb-headline-074e1a3b a {
 h2.gb-headline-074e1a3b a:hover {
 	background: #212121;
   color: #fafafa;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
 }
