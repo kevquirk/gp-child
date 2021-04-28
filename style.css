@@ -109,3 +109,12 @@ input {
   position: absolute;
   width: 1px;
 }
+
+.nav-links {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #212121;
+  border-top: 3px solid #212121;
+  padding: 2rem 0;
+  border-bottom: 3px solid #212121;
+}
