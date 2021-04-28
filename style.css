@@ -8,6 +8,22 @@
  Version:      0.1
 */
 
+/* Load custom fonts */
+/* pt-sans-narrow-regular - latin */
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/wp-content/themes/generatepress_child/fonts/pt-sans/pt-sans-narrow-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/wp-content/themes/generatepress_child/fonts/pt-sans/pt-sans-narrow-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/wp-content/themes/generatepress_child/fonts/pt-sans/pt-sans-narrow-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/wp-content/themes/generatepress_child/fonts/pt-sans/pt-sans-narrow-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/wp-content/themes/generatepress_child/fonts/pt-sans/pt-sans-narrow-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/wp-content/themes/generatepress_child/fonts/pt-sans/pt-sans-narrow-v12-latin-regular.svg#PTSansNarrow') format('svg'); /* Legacy iOS */
+}
+
+
 /* Centre homepage avatar */
 .site-avatar {
   margin: 0 auto;
