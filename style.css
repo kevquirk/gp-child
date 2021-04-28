@@ -169,7 +169,7 @@ input {
 }
 
 .page-numbers.current,
-.page-numbers a:hover {
+.page-numbers:hover {
   color: #585858;
   text-decoration: underline;
   text-decoration-style: dotted;
