@@ -44,8 +44,8 @@ h2.gb-headline-074e1a3b a:hover {
 /* Subscribe form */
 /* Subscribe form on posts */
 .subscribe-form {
-  background: var(--accent-bg);
-  border: 3px solid var(--text);
+  background: rgba(0, 0, 0, .075);
+  border: 3px solid #212121;
   padding: 25px;
   margin: 1em 0;
 }
@@ -55,7 +55,7 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .subscribe-form a {
-  color: var(--text) !important;
+  color: #212121 !important;
 }
 
 @media only screen and (max-width: 700px) {
