@@ -30,3 +30,8 @@ h2.gb-headline-074e1a3b a:hover {
   -ms-transform: rotate(5deg);
   transform: rotate(5deg);
 }
+
+/* Format medium text */
+.medium {
+  font-size: 1.5rem;
+}
