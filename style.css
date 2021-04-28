@@ -63,6 +63,12 @@ h2.gb-headline-074e1a3b a:hover {
   transform: rotate(5deg);
 }
 
+.main-title a:hover {
+  background: #fafafa;
+  color: #212121;
+  padding: 0 .5rem;
+}
+
 /* Typography */
 .inside-article a {
   text-decoration: underline;
