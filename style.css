@@ -170,7 +170,7 @@ input {
 
 .page-numbers.current,
 .page-numbers:hover {
-  color: #585858;
+  color: #585858 !important;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-thickness: .15rem;
