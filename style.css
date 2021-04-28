@@ -18,13 +18,13 @@
 
 /* Blog list hover effect */
 h2.gb-headline-074e1a3b a {
+  background: #212121;
+  color: #fafafa;
   padding: .5rem 1rem;
   transition: none;
   display: inline-block;
 }
 h2.gb-headline-074e1a3b a:hover {
-	background: #212121;
-  color: #fafafa;
   -webkit-transform: rotate(5deg);
   -moz-transform: rotate(5deg);
   -o-transform: rotate(5deg);
