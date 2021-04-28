@@ -19,7 +19,7 @@
 /* Blog list hover effect */
 h2.gb-headline-074e1a3b a {
   background: #212121;
-  color: #fafafa;
+  color: #fafafa !important;
   padding: .5rem 1rem;
   transition: none;
   display: inline-block;
