@@ -28,13 +28,7 @@
   font-family: 'Londrina Solid';
   font-style: normal;
   font-weight: 400;
-  src: url('/wp-content/themes/generatepress_child/fonts/londrina/londrina-solid-v10-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/generatepress_child/fonts/londrina/londrina-solid-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/generatepress_child/fonts/londrina/londrina-solid-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/generatepress_child/fonts/londrina/londrina-solid-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/generatepress_child/fonts/londrina/londrina-solid-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/generatepress_child/fonts/londrina/londrina-solid-v10-latin-regular.svg#LondrinaSolid') format('svg'); /* Legacy iOS */
+  src: url('/wp-content/themes/generatepress_child/fonts/londrina/regular.woff')
 }
 
 
