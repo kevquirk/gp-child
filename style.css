@@ -14,6 +14,7 @@
     --light: #FAFAFA;
     --meta: #444;
     --accent-bg: rgba(0, 0, 0, .075);
+    --code: #D81B60;
 
     /* Notice colours */
     --dark-blue: #0D47A1;
@@ -289,4 +290,8 @@ cite {
   text-decoration: underline;
   text-decoration-thickness: .15rem;
   text-decoration-style: dotted;
+}
+
+code, kbd, tt, var {
+  color: var(--code);
 }
