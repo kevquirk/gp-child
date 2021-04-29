@@ -25,8 +25,8 @@
  /* Change to dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #DCDCDC;
-    --bg: #333;
+    --text: #DCDCDC !important;
+    --bg: #333 !important;
   }
 }
 
