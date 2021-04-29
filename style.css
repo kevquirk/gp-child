@@ -10,11 +10,10 @@
 
 /* Global colour variables */
  :root {
-    --dark: #212121;
-    --light: #FAFAFA;
+    --text: #212121;
+    --bg: #FAFAFA;
     --meta: #444;
     --accent-bg: rgba(0, 0, 0, .075);
-    --code: #D81B60;
 
     /* Notice colours */
     --dark-blue: #0D47A1;
@@ -22,6 +21,14 @@
     --dark-red: #B71C1C;
     --light-red: #FFEBEE;
  }
+
+ /* Change to dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #DCDCDC;
+    --bg: #333;
+  }
+}
 
 /* Load custom fonts */
 /* pt-sans-narrow-regular - latin */
