@@ -159,8 +159,6 @@ p.disappointed {
 
 input#email {
   border: 2px solid var(--dark);
-  color: var(--dark);
-  background: white;
   width: 70%;
 }
 
@@ -168,7 +166,6 @@ input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: white;
   border-radius: 0 !important;
 }
 
