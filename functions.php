@@ -21,3 +21,9 @@ add_filter( 'generate_svg_icon', function( $output, $icon ) {
         }
 	return $output;
 },15,2);
+
+// Gutenberg custom stylesheet
+add_theme_support('editor-styles');
+add_editor_style( 'style.css' );
+
+add_filter( 'pre_get_posts', 'exclude_category_home' );
