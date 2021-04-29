@@ -8,6 +8,20 @@
  Version:      0.1
 */
 
+/* Global colour variables */
+ :root {
+    --dark: #212121;
+    --light: #FAFAFA;
+    --meta: #444;
+    --accent-bg: rgba(0, 0, 0, .075);
+
+    /* Notice colours */
+    --dark-blue: #0D47A1;
+    --light-blue: #E3F2FD;
+    --dark-red: #B71C1C;
+    --light-red: #FFEBEE;
+ }
+
 /* Load custom fonts */
 /* pt-sans-narrow-regular - latin */
 @font-face {
@@ -48,8 +62,8 @@
 
 /* Blog list hover effect */
 h2.gb-headline-074e1a3b a {
-  background: #212121;
-  color: #fafafa !important;
+  background: var(--dark);
+  color: var(--light) !important;
   padding: .5rem 1rem;
   transition: none;
   display: inline-block;
@@ -64,8 +78,8 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .main-navigation {
-  border-top: 3px solid #212121;
-  border-bottom: 3px solid #212121;
+  border-top: 3px solid var(--dark);
+  border-bottom: 3px solid var(--dark);
 }
 
 .main-title a {
@@ -73,8 +87,8 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .main-title a:hover {
-  background: #fafafa;
-  color: #212121;
+  background: var(--light);
+  color: var(--dark);
 }
 
 /* Typography */
@@ -93,7 +107,7 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 #page img {
-  border: 3px solid #212121;
+  border: 3px solid var(--dark);
 }
 
 .medium {
@@ -106,8 +120,8 @@ h2.gb-headline-074e1a3b a:hover {
 
 /* Subscribe form */
 .subscribe-form {
-  background: rgba(0, 0, 0, .075);
-  border: 3px solid #212121;
+  background: var(--accent-bg);
+  border: 3px solid var(--dark);
   padding: 25px;
   margin: 1em 0;
 }
@@ -117,7 +131,7 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .subscribe-form a {
-  color: #212121 !important;
+  color: var(--dark) !important;
 }
 
 @media only screen and (max-width: 700px) {
@@ -141,7 +155,7 @@ p.disappointed {
 }
 
 input#email {
-  border: 2px solid #212121;
+  border: 2px solid var(--dark);
   background: white;
   width: 70%;
 }
@@ -169,19 +183,19 @@ input {
   font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
-  color: #212121;
-  border-top: 3px solid #212121;
+  color: var(--dark);
+  border-top: 3px solid var(--dark);
   padding: 2rem 0;
-  border-bottom: 3px solid #212121;
+  border-bottom: 3px solid var(--dark);
 }
 
 .nav-links a {
-  color: #212121;
+  color: var(--dark);
 }
 
 .page-numbers.current,
 .page-numbers:hover {
-  color: #585858 !important;
+  color: var(--meta) !important;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-thickness: .15rem;
@@ -205,7 +219,7 @@ input {
 
 .kb-club a:hover {
   background: #64B5F6;
-	color: #212121;
+	color: var(--dark);
 }
 
 .kb-club-no-bg {
@@ -216,17 +230,56 @@ input {
 .kb-club-bg {
 	background: #64B5F6;
 	border: 3px solid #64B5F6;
-	color: #212121;
+	color: var(--dark);
 	padding: .5rem 1rem;
 }
 
 .wp-block-quote {
-  border-color: #212121;
+  border-color: var(--dark);
   font-size: 1em;
-  color: #444;
+  color: var(--meta);
 }
 
 cite {
   font-size: .8em;
   font-style: normal;
+}
+
+/****** Format the notice boxes ******/
+
+.notice,
+.notice-blue {
+  border: 3px solid var(--dark-blue);
+  background: var(--light-blue);
+  color: var(--dark-blue);
+  padding: 1rem 2rem;
+}
+
+.notice a,
+.notice-blue a {
+  color: var(--dark-blue);
+  text-decoration: underline;
+  text-decoration-thickness: .15rem;
+}
+
+.notice a:hover,
+.notice-blue a:hover {
+  text-decoration-style: dotted;
+}
+
+.notice-red {
+  border: 3px solid var(--dark-red);
+  background: var(--light-red);
+  color: var(--dark-red);
+  padding: 1rem 2rem;
+}
+
+.notice-red a {
+  color: var(--dark-red);
+  text-decoration: underline;
+  text-decoration-thickness: .15rem;
+}
+
+.notice-red a:hover {
+  text-decoration-style: dotted;
 }
