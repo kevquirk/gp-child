@@ -12,3 +12,8 @@
  code {
    font-size: 15px;
  }
+
+ pre {
+    background: var(--text) !important;
+    max-width: 620px !important;
+}
