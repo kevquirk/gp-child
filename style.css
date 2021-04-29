@@ -41,7 +41,8 @@
 
 /* Fix hamburger spacgin */
 .menu-toggle {
-  padding-top: 1rem;
+  top: .5rem;
+  position: relative;
 }
 
 /* Blog list hover effect */
