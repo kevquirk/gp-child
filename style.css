@@ -330,3 +330,21 @@ pre code {
   margin: 2rem 0;
   padding: .5rem;
 }
+
+/* Format table stripes */
+.wp-block-table.is-style-stripes tr:nth-child(odd) {
+  background: var(--accent-bg) !important;
+  color: var(--text) !important;
+}
+
+.wp-block-table.is-style-stripes tr:nth-child(even) {
+  background: var(--bg) !important;
+}
+
+.wp-block-table table {
+    border: 1px solid var(--text) !important;
+}
+
+.wp-block-table.is-style-stripes {
+  border-bottom: none;
+}
