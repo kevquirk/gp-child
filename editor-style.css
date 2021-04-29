@@ -17,3 +17,7 @@
     background: var(--text) !important;
     max-width: 620px !important;
 }
+
+img {
+  border: 3px solid var(--text);
+}
