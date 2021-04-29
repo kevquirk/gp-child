@@ -37,6 +37,7 @@
   display: block;
 	padding-bottom: 50px;
   height: 11rem;
+  border: none !important;
 }
 
 /* Fix hamburger spacgin */
@@ -53,6 +54,7 @@ h2.gb-headline-074e1a3b a {
   transition: none;
   display: inline-block;
 }
+
 h2.gb-headline-074e1a3b a:hover {
   -webkit-transform: rotate(5deg);
   -moz-transform: rotate(5deg);
@@ -87,6 +89,10 @@ h2.gb-headline-074e1a3b a:hover {
 #page h2,
 #page h3 {
   margin-top: 4rem;
+}
+
+#page img {
+  border: 3px solid #212121;
 }
 
 .medium {
