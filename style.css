@@ -342,7 +342,7 @@ pre code {
 }
 
 .wp-block-table table {
-    border: 1px solid var(--text) !important;
+    border: 2px solid var(--text) !important;
 }
 
 .wp-block-table.is-style-stripes {
@@ -350,5 +350,5 @@ pre code {
 }
 
 th {
-  border-bottom: 1px solid var(--text) !important;
+  border-bottom: 2px solid var(--text) !important;
 }
