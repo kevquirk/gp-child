@@ -310,3 +310,18 @@ pre code {
   color: var(--bg);
   padding: 0;
 }
+
+/* Format the blogroll banners */
+.blogroll-banner {
+  background: var(--accent-bg);
+  border: 3px solid var(--text);
+  margin: 2rem 0;
+  padding: .5rem;
+}
+
+.blogroll-banner-fav {
+  background: #FFF9C4;
+  border: 3px solid #FFB300;
+  margin: 2rem 0;
+  padding: .5rem;
+}
