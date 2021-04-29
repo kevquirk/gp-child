@@ -283,3 +283,9 @@ cite {
 .notice-red a:hover {
   text-decoration-style: dotted;
 }
+
+.paging-navigation a:hover {
+  text-decoration: underline;
+  text-decoration-tickness: .15rem;
+  text-decoration-style: dotted;
+}
