@@ -298,5 +298,8 @@ code, kbd, tt, var {
 
 pre {
   background: var(--dark);
+}
+
+pre code {
   color: var(--light);
 }
