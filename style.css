@@ -286,6 +286,6 @@ cite {
 
 .paging-navigation a:hover {
   text-decoration: underline;
-  text-decoration-tickness: .15rem;
+  text-decoration-thickness: .15rem;
   text-decoration-style: dotted;
 }
