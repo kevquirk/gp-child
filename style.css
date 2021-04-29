@@ -295,9 +295,13 @@ cite {
 code, kbd, tt, var {
   color: var(--light);
   background: var(--dark);
-  padding: 0 5px;
+  padding: 5px;
 }
 
 pre {
   background: var(--dark);
+}
+
+pre code {
+  padding: 0;
 }
