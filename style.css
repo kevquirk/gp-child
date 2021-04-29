@@ -319,6 +319,11 @@ pre code {
   padding: .5rem;
 }
 
+.blogroll-banner h2,
+.blogroll-banner-fav h2 {
+  margin: none;
+}
+
 .blogroll-banner-fav {
   background: #FFF9C4;
   border: 3px solid #FFB300;
