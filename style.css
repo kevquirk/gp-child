@@ -348,3 +348,7 @@ pre code {
 .wp-block-table.is-style-stripes {
   border-bottom: none;
 }
+
+th {
+  border-bottom: 1px solid var(--text) !important;
+}
