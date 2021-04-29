@@ -66,8 +66,8 @@
 
 /* Blog list hover effect */
 h2.gb-headline-074e1a3b a {
-  background: var(--dark);
-  color: var(--light) !important;
+  background: var(--text);
+  color: var(--bg) !important;
   padding: .5rem 1rem;
   transition: none;
   display: inline-block;
@@ -82,8 +82,8 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .main-navigation {
-  border-top: 3px solid var(--dark);
-  border-bottom: 3px solid var(--dark);
+  border-top: 3px solid var(--text);
+  border-bottom: 3px solid var(--text);
 }
 
 .main-title a {
@@ -91,8 +91,8 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .main-title a:hover {
-  background: var(--light);
-  color: var(--dark);
+  background: var(--bg);
+  color: var(--text);
 }
 
 /* Typography */
@@ -111,7 +111,7 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 #page img {
-  border: 3px solid var(--dark);
+  border: 3px solid var(--text);
 }
 
 .has-medium-font-size {
@@ -130,7 +130,7 @@ h2.gb-headline-074e1a3b a:hover {
 /* Subscribe form */
 .subscribe-form {
   background: var(--accent-bg);
-  border: 3px solid var(--dark);
+  border: 3px solid var(--text);
   padding: 25px;
   margin: 1em 0;
 }
@@ -140,7 +140,7 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .subscribe-form a {
-  color: var(--dark) !important;
+  color: var(--text) !important;
 }
 
 @media only screen and (max-width: 700px) {
@@ -163,7 +163,7 @@ p.disappointed {
 }
 
 input#email {
-  border: 2px solid var(--dark);
+  border: 2px solid var(--text);
   width: 70%;
 }
 
@@ -189,14 +189,14 @@ input {
   font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
-  color: var(--dark);
-  border-top: 3px solid var(--dark);
+  color: var(--text);
+  border-top: 3px solid var(--text);
   padding: 2rem 0;
-  border-bottom: 3px solid var(--dark);
+  border-bottom: 3px solid var(--text);
 }
 
 .nav-links a {
-  color: var(--dark);
+  color: var(--text);
 }
 
 .page-numbers.current,
@@ -225,7 +225,7 @@ input {
 
 .kb-club a:hover {
   background: #64B5F6;
-	color: var(--dark);
+	color: var(--text);
 }
 
 .kb-club-no-bg {
@@ -236,12 +236,12 @@ input {
 .kb-club-bg {
 	background: #64B5F6;
 	border: 3px solid #64B5F6;
-	color: var(--dark);
+	color: var(--text);
 	padding: .5rem 1rem;
 }
 
 .wp-block-quote {
-  border-color: var(--dark);
+  border-color: var(--text);
   font-size: 1em;
   color: var(--meta);
 }
@@ -297,16 +297,16 @@ cite {
 }
 
 code, kbd, tt, var {
-  color: var(--dark);
+  color: var(--text);
   background: var(--accent-bg);
   padding: 5px;
 }
 
 pre {
-  background: var(--dark);
+  background: var(--text);
 }
 
 pre code {
-  color: var(--light);
+  color: var(--bg);
   padding: 0;
 }
