@@ -22,14 +22,6 @@
     --light-red: #FFEBEE;
  }
 
- /* Change to dark theme */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #DCDCDC !important;
-    --bg: #333 !important;
-  }
-}
-
 /* Load custom fonts */
 /* pt-sans-narrow-regular - latin */
 @font-face {
