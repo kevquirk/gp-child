@@ -187,6 +187,11 @@ input {
   text-decoration-thickness: .15rem;
 }
 
+#footer-widgets a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
 /* Format 512kb blub banner in footer */
 
 .kb-club {
