@@ -39,6 +39,11 @@
   height: 11rem;
 }
 
+/* Fix hamburger spacgin */
+.menu-toggle {
+  padding-top: 1rem;
+}
+
 /* Blog list hover effect */
 h2.gb-headline-074e1a3b a {
   background: #212121;
