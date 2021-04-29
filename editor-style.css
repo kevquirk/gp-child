@@ -6,3 +6,7 @@
  a:hover {
    text-decoration-style: dotted;
  }
+
+ code {
+   font-size: 15px;
+ }
