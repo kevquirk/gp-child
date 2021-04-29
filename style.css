@@ -321,7 +321,7 @@ pre code {
 
 .blogroll-banner h2,
 .blogroll-banner-fav h2 {
-  margin: none;
+  margin: 0;
 }
 
 .blogroll-banner-fav {
