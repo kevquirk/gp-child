@@ -293,8 +293,8 @@ cite {
 }
 
 code, kbd, tt, var {
-  color: var(--light);
-  background: var(--dark);
+  color: var(--dark);
+  background: var(--accent-bg);
   padding: 5px;
 }
 
@@ -303,5 +303,6 @@ pre {
 }
 
 pre code {
+  color: var(--light);
   padding: 0;
 }
