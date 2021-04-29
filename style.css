@@ -295,3 +295,7 @@ cite {
 code, kbd, tt, var {
   color: var(--code);
 }
+
+pre code {
+  color: var(--dark);
+}
