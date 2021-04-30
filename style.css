@@ -91,7 +91,7 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .main-title a:hover {
-  background: var(--bg);
+  background: var(--bg) !important;
   color: var(--text) !important;
 }
 
