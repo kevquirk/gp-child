@@ -90,12 +90,8 @@ h2.gb-headline-074e1a3b a:hover {
   padding: 0 .5rem;
 }
 
-.main-title a:hover {
-  background: var(--bg) !important;
-  color: var(--text) !important;
-}
-
-.main-title a:hover {
+.main-title a:hover,
+.main-navigation a:hover {
   background: var(--bg) !important;
   color: var(--text) !important;
 }
