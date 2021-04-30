@@ -69,7 +69,7 @@ h2.gb-headline-074e1a3b a {
   background: var(--text);
   color: var(--bg) !important;
   padding: .5rem 1rem;
-  transition: none;
+  transition: .1s all ease-in-out;
   display: inline-block;
 }
 
