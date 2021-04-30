@@ -95,6 +95,11 @@ h2.gb-headline-074e1a3b a:hover {
   color: var(--text) !important;
 }
 
+.main-title a:hover {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
 /* Typography */
 .inside-article a {
   text-decoration: underline;
