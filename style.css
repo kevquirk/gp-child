@@ -91,15 +91,6 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 /* Typography */
-.inside-article a {
-  text-decoration: underline;
-  text-decoration-thickness: .15rem;
-}
-
-.inside-article a:hover {
-  text-decoration-style: dotted;
-}
-
 #page h2,
 #page h3 {
   margin-top: 4rem;
