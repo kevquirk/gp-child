@@ -1,14 +1,3 @@
- a {
-   text-decoration: underline;
-   text-decoration-thickness: .15rem;
- }
-
- a:hover {
-   text-decoration: underline;
-   text-decoration-thickness: .15rem;
-   text-decoration-style: dotted;
- }
-
  code {
    font-size: 15px;
    padding: 2px 5px;
