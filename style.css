@@ -276,6 +276,10 @@ cite {
   text-decoration-style: dotted;
 }
 
+.paging-navigation a {
+  color: var(--text);
+}
+
 .paging-navigation a:hover {
   text-decoration: underline;
   text-decoration-thickness: .15rem;
