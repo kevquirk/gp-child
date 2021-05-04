@@ -34,13 +34,22 @@
   src: url('/wp-content/themes/generatepress_child/fonts/pt-sans/bold.woff');
 }
 
-/* londrina-solid-regular - latin */
+/* fira-sans-condensed-regular - latin */
 @font-face {
-  font-family: 'Londrina Solid';
+  font-family: 'Fira Sans Condensed';
   font-style: normal;
   font-weight: 400;
-  src: url('/wp-content/themes/generatepress_child/fonts/londrina/regular.woff')
+  src: url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-regular.woff');
 }
+
+/* fira-sans-condensed-600 - latin */
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600.woff2');
+}
+
 
 /* Centre homepage avatar */
 .site-avatar {
