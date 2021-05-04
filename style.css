@@ -118,6 +118,10 @@ h2.gb-headline-074e1a3b a:hover {
   font-size: 1rem;
 }
 
+.favourites a {
+  font-size: 1.25em;
+}
+
 /* Subscribe form */
 .subscribe-form {
   background: var(--text);
