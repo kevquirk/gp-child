@@ -159,6 +159,7 @@ p.disappointed {
 
 input#email {
   width: 70%;
+  border: 1px solid white;
 }
 
 input {
