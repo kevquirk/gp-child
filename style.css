@@ -229,7 +229,6 @@ input {
 .wp-block-quote {
   border-color: var(--text);
   font-size: 1em;
-  color: var(--meta);
 }
 
 cite {
