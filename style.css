@@ -133,6 +133,12 @@ h2.gb-headline-074e1a3b a:hover {
 
 .subscribe-form a {
   color: var(--bg) !important;
+  text-decoration: underline;
+  text-decoration-thickness: .15rem;
+}
+
+.subscribe-form a:hover {
+  text-decoration-style: dotted;
 }
 
 @media only screen and (max-width: 700px) {
