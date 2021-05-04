@@ -13,10 +13,3 @@
 
     return $fonts;
 } );
-
-// Gutenberg custom stylesheet
-add_theme_support('editor-styles');
-add_editor_style( 'style.css' );
-add_editor_style( 'editor-style.css' );
-
-add_filter( 'pre_get_posts', 'exclude_category_home' );
