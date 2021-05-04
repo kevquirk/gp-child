@@ -16,10 +16,7 @@
     --accent-bg: rgba(0, 0, 0, .075);
 
     /* Notice colours */
-    --dark-blue: #0D47A1;
-    --light-blue: #E3F2FD;
     --dark-red: #B71C1C;
-    --light-red: #FFEBEE;
  }
 
 /* Load custom fonts */
@@ -268,12 +265,12 @@ cite {
 
 .notice-red {
   background: var(--dark-red);
-  color: var(--light-red);
+  color: #FAFAFA;
   padding: 1rem 2rem;
 }
 
 .notice-red a {
-  color: var(--light-red);
+  color: #FAFAFA;
   text-decoration: underline;
   text-decoration-thickness: .15rem;
 }
