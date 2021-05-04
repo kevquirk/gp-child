@@ -253,7 +253,7 @@ cite {
 
 .notice a,
 .notice-blue a {
-  color: var(--bg);
+  color: #fff;
   text-decoration: underline;
   text-decoration-thickness: .15rem;
 }
