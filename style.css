@@ -8,6 +8,20 @@
  Version:      0.1
 */
 
+/* Global colour variables */
+ :root {
+    --text: #212121;
+    --bg: #FAFAFA;
+    --meta: #444;
+    --accent-bg: rgba(0, 0, 0, .075);
+
+    /* Notice colours */
+    --dark-blue: #0D47A1;
+    --light-blue: #E3F2FD;
+    --dark-red: #B71C1C;
+    --light-red: #FFEBEE;
+ }
+
 /* Load custom fonts */
 /* pt-sans-narrow-regular - latin */
 @font-face {
@@ -31,25 +45,34 @@
   src: url('/wp-content/themes/generatepress_child/fonts/londrina/regular.woff')
 }
 
-
-
 /* Centre homepage avatar */
 .site-avatar {
   margin: 0 auto;
   display: block;
 	padding-bottom: 50px;
   height: 11rem;
+  border: none !important;
+}
+
+.intro {
+  line-height: 1.3;
+}
+
+/* Fix hamburger spacgin */
+.menu-toggle {
+  top: .6rem;
+  position: relative;
 }
 
 /* Blog list hover effect */
 h2.gb-headline-074e1a3b a {
-  background: #212121;
-  color: #fafafa !important;
-  font-weight: bold;
+  background: var(--text);
+  color: var(--bg) !important;
   padding: .5rem 1rem;
-  transition: .1s;
+  transition: .1s all ease-in-out;
   display: inline-block;
 }
+
 h2.gb-headline-074e1a3b a:hover {
   -webkit-transform: rotate(5deg);
   -moz-transform: rotate(5deg);
@@ -59,8 +82,8 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .main-navigation {
-  border-top: 3px solid #212121;
-  border-bottom: 3px solid #212121;
+  border-top: 3px solid var(--text);
+  border-bottom: 3px solid var(--text);
 }
 
 .main-title a {
@@ -68,8 +91,8 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .main-title a:hover {
-  background: #fafafa;
-  color: #212121;
+  background: var(--bg) !important;
+  color: var(--text) !important;
 }
 
 /* Typography */
@@ -87,6 +110,15 @@ h2.gb-headline-074e1a3b a:hover {
   margin-top: 4rem;
 }
 
+#page img {
+  border: 3px solid var(--text);
+}
+
+.has-medium-font-size {
+  font-size: 1.3em;
+  line-height: 1.3;
+}
+
 .medium {
   font-size: 1.5rem;
 }
@@ -97,8 +129,8 @@ h2.gb-headline-074e1a3b a:hover {
 
 /* Subscribe form */
 .subscribe-form {
-  background: rgba(0, 0, 0, .075);
-  border: 3px solid #212121;
+  background: var(--accent-bg);
+  border: 3px solid var(--text);
   padding: 25px;
   margin: 1em 0;
 }
@@ -108,7 +140,7 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .subscribe-form a {
-  color: #212121 !important;
+  color: var(--text) !important;
 }
 
 @media only screen and (max-width: 700px) {
@@ -128,12 +160,10 @@ h2.gb-headline-074e1a3b a:hover {
 
 p.disappointed {
   font-size: 1rem;
-  margin-top: -.25rem;
 }
 
 input#email {
-  border: 2px solid #212121;
-  background: white;
+  border: 2px solid var(--text);
   width: 70%;
 }
 
@@ -141,7 +171,6 @@ input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: white;
   border-radius: 0 !important;
 }
 
@@ -160,20 +189,166 @@ input {
   font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
-  color: #212121;
-  border-top: 3px solid #212121;
+  color: var(--text);
+  border-top: 3px solid var(--text);
   padding: 2rem 0;
-  border-bottom: 3px solid #212121;
+  border-bottom: 3px solid var(--text);
 }
 
 .nav-links a {
-  color: #212121;
+  color: var(--text);
 }
 
 .page-numbers.current,
 .page-numbers:hover {
-  color: #585858 !important;
+  color: var(--meta) !important;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-thickness: .15rem;
+}
+
+#footer-widgets a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+/* Format 512kb blub banner in footer */
+
+.kb-club {
+	margin-top: 1.5rem;
+}
+
+.kb-club a {
+	text-decoration: none;
+	padding: .5rem 0;
+}
+
+.kb-club a:hover {
+  background: #64B5F6;
+	color: var(--text);
+}
+
+.kb-club-no-bg {
+	border: 3px solid #64B5F6;
+	padding: .5rem 1rem;
+}
+
+.kb-club-bg {
+	background: #64B5F6;
+	border: 3px solid #64B5F6;
+	color: var(--text);
+	padding: .5rem 1rem;
+}
+
+.wp-block-quote {
+  border-color: var(--text);
+  font-size: 1em;
+  color: var(--meta);
+}
+
+cite {
+  font-size: .8em;
+  font-style: normal;
+}
+
+/****** Format the notice boxes ******/
+
+.notice,
+.notice-blue {
+  border: 3px solid var(--dark-blue);
+  background: var(--light-blue);
+  color: var(--dark-blue);
+  padding: 1rem 2rem;
+}
+
+.notice a,
+.notice-blue a {
+  color: var(--dark-blue);
+  text-decoration: underline;
+  text-decoration-thickness: .15rem;
+}
+
+.notice a:hover,
+.notice-blue a:hover {
+  text-decoration-style: dotted;
+}
+
+.notice-red {
+  border: 3px solid var(--dark-red);
+  background: var(--light-red);
+  color: var(--dark-red);
+  padding: 1rem 2rem;
+}
+
+.notice-red a {
+  color: var(--dark-red);
+  text-decoration: underline;
+  text-decoration-thickness: .15rem;
+}
+
+.notice-red a:hover {
+  text-decoration-style: dotted;
+}
+
+.paging-navigation a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: .15rem;
+  text-decoration-style: dotted;
+}
+
+code, kbd, tt, var {
+  color: var(--text);
+  background: var(--accent-bg);
+  padding: 5px;
+}
+
+pre {
+  background: var(--text);
+}
+
+pre code {
+  color: var(--bg);
+  padding: 0;
+}
+
+/* Format the blogroll banners */
+.blogroll-banner {
+  background: var(--accent-bg);
+  border: 3px solid var(--text);
+  margin: 2rem 0;
+  padding: .5rem;
+}
+
+.blogroll-banner h2,
+.blogroll-banner-fav h2 {
+  margin-top: 0 !important;
+}
+
+.blogroll-banner-fav {
+  background: #FFF9C4;
+  border: 3px solid #FFB300;
+  margin: 2rem 0;
+  padding: .5rem;
+}
+
+/* Format table stripes */
+.wp-block-table.is-style-stripes tr:nth-child(odd) {
+  background: var(--accent-bg) !important;
+  color: var(--text) !important;
+}
+
+.wp-block-table.is-style-stripes tr:nth-child(even) {
+  background: var(--bg) !important;
+}
+
+.wp-block-table table {
+    border: 3px solid var(--text) !important;
+}
+
+.wp-block-table.is-style-stripes {
+  border-bottom: none;
+}
+
+th {
+  border-bottom: 2px solid var(--text) !important;
 }
