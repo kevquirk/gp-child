@@ -249,15 +249,14 @@ cite {
 
 .notice,
 .notice-blue {
-  border: 3px solid var(--dark-blue);
-  background: var(--light-blue);
-  color: var(--dark-blue);
+  background: var(--text);
+  color: var(--bg);
   padding: 1rem 2rem;
 }
 
 .notice a,
 .notice-blue a {
-  color: var(--dark-blue);
+  color: var(--bg);
   text-decoration: underline;
   text-decoration-thickness: .15rem;
 }
@@ -268,14 +267,13 @@ cite {
 }
 
 .notice-red {
-  border: 3px solid var(--dark-red);
-  background: var(--light-red);
-  color: var(--dark-red);
+  background: var(--dark-red);
+  color: var(--light-red);
   padding: 1rem 2rem;
 }
 
 .notice-red a {
-  color: var(--dark-red);
+  color: var(--light-red);
   text-decoration: underline;
   text-decoration-thickness: .15rem;
 }
