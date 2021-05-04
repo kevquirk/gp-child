@@ -158,7 +158,6 @@ p.disappointed {
 }
 
 input#email {
-  border: 2px solid var(--bg);
   width: 70%;
 }
 
