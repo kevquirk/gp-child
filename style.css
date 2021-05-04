@@ -58,12 +58,6 @@
   line-height: 1.3;
 }
 
-/* Fix hamburger spacgin */
-.menu-toggle {
-  top: .6rem;
-  position: relative;
-}
-
 /* Blog list hover effect */
 h2.gb-headline-074e1a3b a {
   background: var(--text);
