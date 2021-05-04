@@ -47,7 +47,7 @@ h2.gb-headline-074e1a3b a {
   color: #fafafa !important;
   font-weight: bold;
   padding: .5rem 1rem;
-  transition: none;
+  transition: .1s;
   display: inline-block;
 }
 h2.gb-headline-074e1a3b a:hover {
