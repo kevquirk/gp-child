@@ -68,6 +68,7 @@
 h2.gb-headline-074e1a3b a {
   background: var(--text);
   color: var(--bg) !important;
+  font-weight: bold;
   padding: .5rem 1rem;
   transition: .1s all ease-in-out;
   display: inline-block;
