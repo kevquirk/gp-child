@@ -10,9 +10,9 @@
 
 /* Global colour variables */
  :root {
-    --text: #212121;
-    --bg: #FAFAFA;
-    --meta: #444;
+    --text: #112154;
+    --bg: #dbe5ee;
+    --meta: #2778ba;
     --accent-bg: rgba(0, 0, 0, .075);
 
     /* Notice colours */
