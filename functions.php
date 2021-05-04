@@ -10,6 +10,7 @@
  add_filter( 'generate_typography_default_fonts', function( $fonts ) {
     $fonts[] = 'PT Sans Narrow';
     $fonts[] = 'Fira Sans Condensed';
+    $fonts[] = 'Inter';
 
     return $fonts;
 } );

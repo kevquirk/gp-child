@@ -50,6 +50,23 @@
   src: url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600.woff');
 }
 
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/wp-content/themes/generatepress_child/fonts/inter/inter-v3-latin-regular.woff') format('woff');
+}
+
+/* inter-600 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/wp-content/themes/generatepress_child/fonts/inter/inter-v3-latin-600.woff') format('woff');
+}
+
+
 
 /* Centre homepage avatar */
 .site-avatar {
