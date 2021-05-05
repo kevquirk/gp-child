@@ -243,6 +243,7 @@ input {
 
 .wp-block-search__button:hover {
   background: var(--meta);
+  border-color: var(--meta);
 }
 
 /* Format 512kb blub banner in footer */
