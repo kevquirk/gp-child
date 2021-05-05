@@ -151,6 +151,11 @@ h2.gb-headline-074e1a3b a:hover {
   text-decoration-style: dotted;
 }
 
+.subscribe-form input#submit {
+  background: var(--meta);
+  color: white;
+}
+
 .subscribe-form input#submit:hover {
   background: var(--bg);
   color: var(--text);
