@@ -233,7 +233,7 @@ input {
 
 .kb-club a:hover {
   background: #FBC02D;
-	color: var(--text);
+	color: var(--text) !important;
 }
 
 .kb-club-no-bg {
