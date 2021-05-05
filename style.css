@@ -230,8 +230,19 @@ input {
   text-decoration-style: dotted;
 }
 
+/* Fix buttons */
 .wp-block-button__link {
   border-radius: 0;
+}
+
+.wp-block-search .wp-block-search__button {
+  background: var(--text);
+  border-color: var(--text);
+  color: white;
+}
+
+.wp-block-search__button:hover {
+  background: var(--meta);
 }
 
 /* Format 512kb blub banner in footer */
