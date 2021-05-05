@@ -108,7 +108,7 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .has-medium-font-size {
-  font-size: 1.3em;
+  font-size: 1.3em !important;
   line-height: 1.3;
 }
 
