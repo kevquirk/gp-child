@@ -319,11 +319,11 @@ cite {
 }
 
 .paging-navigation a {
-  color: var(--text);
+  color: var(--text) !important;
 }
 
 .paging-navigation a:hover {
-  color: var(--text);
+  color: var(--text) !important;
   text-decoration: underline;
   text-decoration-thickness: .15rem;
   text-decoration-style: dotted;
