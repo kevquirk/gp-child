@@ -66,10 +66,6 @@
 }
 
 /* Blog list hover effect */
-h2.gb-headline-074e1a3b {
-  margin-top: 0;
-}
-
 h2.gb-headline-074e1a3b a {
   background: var(--text);
   color: var(--bg) !important;
