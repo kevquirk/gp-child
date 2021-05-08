@@ -292,7 +292,7 @@ cite {
 
 .notice a,
 .notice-blue a {
-  color: #fff;
+  color: #fff !important;
   text-decoration: underline;
   text-decoration-thickness: .15rem;
 }
@@ -304,12 +304,12 @@ cite {
 
 .notice-red {
   background: var(--dark-red);
-  color: #FAFAFA;
+  color: #fff;
   padding: 1rem 2rem;
 }
 
 .notice-red a {
-  color: #FAFAFA;
+  color: #fff !important;
   text-decoration: underline;
   text-decoration-thickness: .15rem;
 }
