@@ -67,6 +67,7 @@
 
 /* Blog list hover effect */
 h2.gb-headline-074e1a3b a {
+  font-size: 36px;
   background: var(--text);
   color: var(--bg) !important;
   font-weight: bold;
