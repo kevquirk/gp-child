@@ -386,3 +386,9 @@ pre code {
 th {
   border-bottom: 2px solid var(--text) !important;
 }
+
+.wp-block-separator {
+  border-top: 1px solid var(--text);
+  max-width: 80%;
+  margin: 0 auto;
+}
