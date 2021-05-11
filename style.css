@@ -61,6 +61,12 @@
   border: none !important;
 }
 
+/* Typography */
+#page h2,
+#page h3 {
+  margin-top: 4rem;
+}
+
 .intro {
   line-height: 1.3;
 }
@@ -85,7 +91,7 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 /* Newsletter list */
-h2.gb-container-1fcb337c a {
+h2.gb-headline.gb-headline-e4c4f815.gb-headline-text {
   margin-top: 0;
 }
 
@@ -101,12 +107,6 @@ h2.gb-container-1fcb337c a {
 .main-title a:hover {
   background: var(--bg) !important;
   color: var(--text) !important;
-}
-
-/* Typography */
-#page h2,
-#page h3 {
-  margin-top: 4rem;
 }
 
 #page img {
