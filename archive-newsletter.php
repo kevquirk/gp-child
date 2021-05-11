@@ -32,7 +32,7 @@ get_header(); ?>
 					 * @hooked generate_archive_title - 10
 					 */
            ?>
-					<h1 class="entry-title">Newsletter Archive</h1>
+					<h1 class="archive-title">Newsletter Archive</h1>
 
           <?php
 					while ( have_posts() ) :
