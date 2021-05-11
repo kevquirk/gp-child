@@ -84,6 +84,11 @@ h2.gb-headline-074e1a3b a:hover {
   transform: rotate(5deg);
 }
 
+/* Newsletter list */
+h2.gb-container-1fcb337c a {
+  margin-top: 0;
+}
+
 .main-navigation {
   border-top: 3px solid var(--text);
   border-bottom: 3px solid var(--text);
