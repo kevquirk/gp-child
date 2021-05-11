@@ -388,7 +388,7 @@ th {
 }
 
 .wp-block-separator {
-  border-top: 1px solid var(--text);
+  border-top: 2px solid var(--text);
   max-width: 80%;
   margin: 0 auto;
 }
