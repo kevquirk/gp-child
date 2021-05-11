@@ -160,9 +160,9 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 @media only screen and (max-width: 700px) {
-  .mini-subscribe input#bd-email,
+  .mini-subscribe input#email,
   .mini-subscribe input#submit,
-  .subscribe-form input#bd-email,
+  .subscribe-form input#email,
   .subscribe-form input#submit {
     width: 100%;
     max-width: 100%;
@@ -178,7 +178,7 @@ p.disappointed {
   font-size: 1rem;
 }
 
-input#bd-email {
+input#email {
   width: 70%;
   border: 1px solid white;
 }
