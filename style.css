@@ -50,8 +50,6 @@
   src: url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600.woff');
 }
 
-
-
 /* Centre homepage avatar */
 .site-avatar {
   margin: 0 auto;
@@ -59,6 +57,20 @@
 	padding-bottom: 50px;
   height: 11rem;
   border: none !important;
+}
+
+/* Layout changes & fixes */
+.page-header {
+    padding-bottom: 0 !important;
+}
+
+#page img {
+  border: 3px solid var(--text);
+}
+
+.main-navigation {
+  border-top: 3px solid var(--text);
+  border-bottom: 3px solid var(--text);
 }
 
 /* Typography */
@@ -94,11 +106,6 @@ h2.gb-headline-074e1a3b a:hover {
   transform: rotate(5deg);
 }
 
-.main-navigation {
-  border-top: 3px solid var(--text);
-  border-bottom: 3px solid var(--text);
-}
-
 .main-title a {
   padding: 0 .5rem;
 }
@@ -106,10 +113,6 @@ h2.gb-headline-074e1a3b a:hover {
 .main-title a:hover {
   background: var(--bg) !important;
   color: var(--text) !important;
-}
-
-#page img {
-  border: 3px solid var(--text);
 }
 
 .has-medium-font-size,
@@ -232,7 +235,24 @@ input {
   text-decoration-style: dotted;
 }
 
-/* Fix buttons */
+/* Format code and pre blocks */
+
+code, kbd, tt, var {
+  color: var(--text);
+  background: var(--accent-bg);
+  padding: 5px;
+}
+
+pre {
+  background: var(--text);
+}
+
+pre code {
+  color: var(--bg);
+  padding: 0;
+}
+
+/* Fix button border radius */
 .wp-block-button__link {
   border-radius: 0;
 }
@@ -332,21 +352,6 @@ cite {
   text-decoration: underline;
   text-decoration-thickness: .15rem;
   text-decoration-style: dotted;
-}
-
-code, kbd, tt, var {
-  color: var(--text);
-  background: var(--accent-bg);
-  padding: 5px;
-}
-
-pre {
-  background: var(--text);
-}
-
-pre code {
-  color: var(--bg);
-  padding: 0;
 }
 
 /* Format the blogroll banners */
