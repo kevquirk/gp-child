@@ -245,6 +245,10 @@ input {
   display: none;
 }
 
+input.search-field {
+  border-radius: 0;
+}
+
 /* Format code and pre blocks */
 
 code, kbd, tt, var {
