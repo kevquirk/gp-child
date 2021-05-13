@@ -29,10 +29,11 @@ function notes_posttype() {
         array(
             'labels' => array(
                 'name' => __( 'Notes' ),
-                'singular_name' => __( 'Notes' )
+                'singular_name' => __( 'Note' )
             ),
             'public' => true,
             'has_archive' => true,
+            'rewrite' => array('slug' => 'notes'),
             'show_in_rest' => true,
             'menu_icon'   => 'dashicons-welcome-write-blog',
 
