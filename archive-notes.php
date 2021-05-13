@@ -34,7 +34,7 @@ get_header(); ?>
            ?>
 					<h1 class="archive-title">Notes</h1>
 
-          <p>My notes are shorter posts that don't really go into as much details as <a href="/blog">regular blog posts</a>. Notes tend to be shorter updates or opinions.</p>
+          <p>My notes are shorter posts that don't really go into as much detail as <a href="/blog">regular blog posts</a>. Notes tend to be shorter updates or opinions.</p>
 
           <?php
 					while ( have_posts() ) :

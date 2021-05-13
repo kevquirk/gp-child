@@ -235,6 +235,10 @@ input {
   border: 3px solid var(--text);
 }
 
+.no-border {
+  border: none !important;
+}
+
 /* Format code and pre blocks */
 
 code, kbd, tt, var {
