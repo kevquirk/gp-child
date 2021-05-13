@@ -20,3 +20,25 @@ add_editor_style( 'style.css' );
 add_editor_style( 'editor-style.css' );
 
 add_filter( 'pre_get_posts', 'exclude_category_home' );
+
+// Notes custom post type
+function notes_posttype() {
+
+    register_post_type( 'notes',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Notes' ),
+                'singular_name' => __( 'Notes' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'notes'),
+            'show_in_rest' => true,
+            'menu_icon'   => 'dashicons-welcome-write-blog',
+
+        )
+    );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'notes_posttype' );
