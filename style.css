@@ -310,7 +310,7 @@ cite {
 
 .notice,
 .notice-blue {
-  background: var(--meta);
+  background: var(--text);
   color: #fff;
   padding: 1rem 2rem;
 }
