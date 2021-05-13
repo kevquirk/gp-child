@@ -240,6 +240,11 @@ input {
   border: none !important;
 }
 
+/* Hide title on 404 page */
+.error404 .entry-title {
+  display: none;
+}
+
 /* Format code and pre blocks */
 
 code, kbd, tt, var {
