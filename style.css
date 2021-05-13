@@ -231,6 +231,10 @@ input {
   text-decoration-style: dotted;
 }
 
+.wp-block-image img {
+  border: 3px solid var(--text);
+}
+
 /* Format code and pre blocks */
 
 code, kbd, tt, var {
