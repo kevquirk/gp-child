@@ -246,7 +246,7 @@ input {
 }
 
 input.search-field {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 /* Format code and pre blocks */
