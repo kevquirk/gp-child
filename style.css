@@ -246,7 +246,10 @@ input {
 }
 
 input.search-field {
-  border-radius: 0 !important;
+  border-radius: 0;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
 /* Format code and pre blocks */
