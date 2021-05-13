@@ -245,7 +245,9 @@ input {
   display: none;
 }
 
-input.search-field {
+textarea,
+select,
+input {
   border-radius: 0;
   appearance: none;
   -moz-appearance: none;
