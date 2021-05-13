@@ -235,7 +235,8 @@ input {
   border: 3px solid var(--text);
 }
 
-.no-border {
+.no-border,
+.no-border img {
   border: none !important;
 }
 
