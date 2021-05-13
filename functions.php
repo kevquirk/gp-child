@@ -20,19 +20,3 @@ add_editor_style( 'style.css' );
 add_editor_style( 'editor-style.css' );
 
 add_filter( 'pre_get_posts', 'exclude_category_home' );
-
-// Notes custom post type
-function notes_posttype() {
-      $args = array(
-          'labels' => array(
-              'name' => __( 'Notes' ),
-              'singular_name' => __( 'Note' )
-          ),
-          'public' => true,
-          'has_archive' => true,
-          'menu_icon'   => 'dashicons-welcome-write-blog',
-    );
-    register_post_type('notes', $args);
-}
-// Hooking up our function to theme setup
-add_action( 'init', 'notes_posttype' );
