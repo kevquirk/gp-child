@@ -37,9 +37,9 @@ add_filter( 'get_the_archive_title', function ($title) {
       return $title;
   });
 
-  // Add "Archive 🗄" to the end of archive titles
+  // Add "Archive" to the end of archive titles
   add_filter( 'get_the_archive_title', function ( $title ) {
-	$title_postfix = ' Archive 🗄';
+	$title_postfix = ' Archive';
 	$title .=  $title_postfix;
 	return $title;
 },50);
