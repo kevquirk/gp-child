@@ -20,10 +20,3 @@ add_editor_style( 'style.css' );
 add_editor_style( 'editor-style.css' );
 
 add_filter( 'pre_get_posts', 'exclude_category_home' );
-
-// Edit archive titles
-add_filter( 'get_the_archive_title', function ( $title ) {
-	$title_postfix = ' Archives';
-	$title .=  $title_postfix;
-	return $title;
-},50);
