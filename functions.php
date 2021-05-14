@@ -39,7 +39,11 @@ add_filter( 'get_the_archive_title', function ($title) {
 
   // Add "Archive" to the end of archive titles
   add_filter( 'get_the_archive_title', function ( $title ) {
-	$title_postfix = ' Archive';
+    if( get_post_type() == 'notes' ) {
+      $title_postfix = '';
+    } else {
+      $title_postfix = ' Archive';
+    }
 	$title .=  $title_postfix;
 	return $title;
 },50);
