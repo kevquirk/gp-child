@@ -47,11 +47,3 @@ add_filter( 'get_the_archive_title', function ($title) {
 	$title .=  $title_postfix;
 	return $title;
 },50);
-
-// Add Notes to main RSS imap_fetchheaderfunction myfeed_request($qv) {
-function myfeed_request($qv) {
-    if (isset($qv['feed']))
-        $qv['post_type'] = get_post_types();
-    return $qv;
-}
-add_filter('request', 'myfeed_request');
