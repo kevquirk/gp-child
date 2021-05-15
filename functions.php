@@ -55,10 +55,3 @@ function myfeed_request($qv) {
     return $qv;
 }
 add_filter('request', 'myfeed_request');
-
-// Limit number of newsletter posts displayed
-query_posts( array(
-    'post_type' => array( 'newsletter', ),
-    'posts_per_page' => 3,
-    'paged'=>$paged,
-) );
