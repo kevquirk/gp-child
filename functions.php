@@ -47,3 +47,10 @@ add_filter( 'get_the_archive_title', function ($title) {
 	$title .=  $title_postfix;
 	return $title;
 },50);
+
+// Add notes to main imap_fetchheaderfunction myfeed_request($qv) {
+    if (isset($qv['feed']) && !isset($qv['post_type']))
+        $qv['post_type'] = array('post', 'notes');
+    return $qv;
+}
+add_filter('request', 'myfeed_request');
