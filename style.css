@@ -227,7 +227,14 @@ input {
   text-decoration-thickness: .15rem;
 }
 
-#footer-widgets a:hover {
+/* Format the footer */
+
+.gb-container.gb-container-ef71cf75 ul {
+  margin-left: 0;
+  list-style-type: none;
+}
+
+.gb-container.gb-container-ef71cf75 a:hover {
   text-decoration: underline;
   text-decoration-style: dotted;
 }
