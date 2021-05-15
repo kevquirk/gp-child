@@ -227,19 +227,6 @@ input {
   text-decoration-thickness: .15rem;
 }
 
-/* Format the footer */
-
-.gb-container.gb-container-ef71cf75 ul {
-  margin-left: 0;
-  list-style-type: none;
-  font-size: .9em;
-}
-
-.gb-container.gb-container-ef71cf75 a:hover {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-}
-
 .wp-block-image img {
   border: 3px solid var(--dark);
 }
@@ -294,6 +281,19 @@ pre code {
   border-color: var(--mid);
 }
 
+/* Format the footer */
+
+.gb-container.gb-container-ef71cf75 ul {
+  margin-left: 0;
+  list-style-type: none;
+  font-size: .9em;
+}
+
+.gb-container.gb-container-ef71cf75 a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
 /* Format 512kb blub banner in footer */
 
 .kb-club {
@@ -310,6 +310,7 @@ pre code {
 .kb-club a:hover {
   background: #FBC02D;
 	color: var(--dark) !important;
+  text-decoration: none;
 }
 
 .kb-club-no-bg {
