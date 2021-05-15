@@ -344,6 +344,19 @@ cite {
   display: none;
 }
 
+/* Format RSS lists */
+.wp-block-rss__item {
+  list-style-type: none;
+}
+
+.wp-block-rss {
+  margin-left: 0;
+}
+
+.wp-block-rss__item {
+  margin-bottom: 1rem;
+}
+
 /****** Format the notice boxes ******/
 
 .notice,
