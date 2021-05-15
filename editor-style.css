@@ -7,3 +7,7 @@
     background: var(--text) !important;
     max-width: 620px !important;
 }
+
+.wp-block-rss {
+  margin: auto !important;
+}
