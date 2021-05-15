@@ -50,7 +50,7 @@ add_filter( 'get_the_archive_title', function ($title) {
 
 // Add Notes to main RSS imap_fetchheaderfunction myfeed_request($qv) {
     if (isset($qv['feed']) && !isset($qv['post_type']))
-        $qv['post_type'] = array('notes');
+        $qv['post_type'] = array('notes',);
     return $qv;
 }
 add_filter('request', 'myfeed_request');
