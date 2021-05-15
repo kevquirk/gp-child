@@ -310,7 +310,7 @@ pre code {
 .kb-club a:hover {
   background: #FBC02D;
 	color: var(--dark) !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .kb-club-no-bg {
