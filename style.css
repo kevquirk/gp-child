@@ -308,19 +308,19 @@ pre code {
 }
 
 .kb-club a:hover {
-  background: var(--accent);
+  background: #FBC02D;
 	color: var(--dark) !important;
   text-decoration: none !important;
 }
 
 .kb-club-no-bg {
-	border: 3px solid var(--accent);
+	border: 3px solid #FBC02D;
 	padding: .5rem 1rem;
 }
 
 .kb-club-bg {
-	background: var(--accent);
-	border: 3px solid var(--accent);
+	background: #FBC02D;
+	border: 3px solid #FBC02D;
 	color: var(--dark);
 	padding: .5rem 1rem;
 }
