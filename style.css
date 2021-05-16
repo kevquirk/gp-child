@@ -236,7 +236,7 @@ input {
   border: none !important;
 }
 
-.wp-block-quote.is-style-larg {
+.wp-block-quote.is-style-large {
   border-left: none;
   padding: 1em 0;
   border-top: 2px solid var(--dark);
