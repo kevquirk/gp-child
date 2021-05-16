@@ -366,6 +366,11 @@ cite {
   margin-bottom: 1rem;
 }
 
+ul.wp-block-rss a {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 /****** Format the notice boxes ******/
 
 .notice,
