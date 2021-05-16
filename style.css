@@ -362,7 +362,7 @@ cite {
   margin-left: 0;
 }
 
-.wp-block-rss__item {
+.container.grid-container .wp-block-rss__item {
   margin-bottom: 1rem;
 }
 
