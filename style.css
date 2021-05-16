@@ -366,7 +366,7 @@ cite {
   margin-bottom: 1rem;
 }
 
-ul.wp-block-rss a {
+.container.grid-container ul.wp-block-rss a {
   font-size: 1.2em;
   font-weight: bold;
 }
