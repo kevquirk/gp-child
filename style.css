@@ -433,8 +433,8 @@ cite {
 }
 
 .blogroll-banner-fav {
-  background: #ECE8C2;
-  border: 3px solid #FFB300;
+  background: #ffdaf8;
+  border: 3px solid var(--accent);
   margin: 2rem 0;
   padding: .5rem;
 }
