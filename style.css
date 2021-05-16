@@ -236,6 +236,14 @@ input {
   border: none !important;
 }
 
+.wp-block-quote.is-style-larg {
+  border-left: none;
+  padding: 1em 0;
+  border-top: 2px solid var(--dark);
+  border-bottom: 2px solid var(--dark);
+  text-align: center;
+}
+
 /* Hide title on 404 page */
 .error404 .entry-title {
   display: none;
