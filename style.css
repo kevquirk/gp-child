@@ -21,19 +21,6 @@
  }
 
 /* Load custom fonts */
-/* pt-sans-narrow-regular - latin */
-@font-face {
-  font-family: 'PT Sans Narrow';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/wp-content/themes/generatepress_child/fonts/pt-sans/regular.woff');
-}
-@font-face {
-  font-family: 'PT Sans Narrow';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/wp-content/themes/generatepress_child/fonts/pt-sans/bold.woff');
-}
 
 /* fira-sans-condensed-regular - latin */
 @font-face {
@@ -43,7 +30,7 @@
   src: url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-regular.woff');
 }
 
-/* fira-sans-condensed-600 - latin */
+/* fira-sans-condensed-600 (bold) - latin */
 @font-face {
   font-family: 'Fira Sans Condensed';
   font-style: normal;
