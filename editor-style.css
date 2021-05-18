@@ -9,7 +9,13 @@
 }
 
 .wp-block-rss {
-  margin: auto !important;
+  margin: 2em auto !important;
+  padding-left: 0 !important;
+}
+
+.wp-block-rss a {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
 }
 
 .wp-block-quote.is-style-large {
