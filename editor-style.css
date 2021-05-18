@@ -11,3 +11,8 @@
 .wp-block-rss {
   margin: auto !important;
 }
+
+.editor-styles-wrapper .wp-block-quote.is-style-larg {
+  display: block;
+  margin: 3em auto;
+}
