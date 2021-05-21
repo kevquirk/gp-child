@@ -280,7 +280,8 @@ pre code {
 }
 
 /* Font size in forms */
-input, textarea {
+.wpforms-field-container input,
+.wpforms-field-container textarea {
   font-size: 18px !important;
 }
 
