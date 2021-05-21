@@ -266,13 +266,15 @@ pre code {
   border-radius: 0;
 }
 
-.wp-block-search .wp-block-search__button {
+.wp-block-search .wp-block-search__button,
+.button {
   background: var(--dark);
   border-color: var(--dark);
   color: white;
 }
 
-.wp-block-search__button:hover {
+.wp-block-search__button:hover,
+.button {
   background: var(--mid);
   border-color: var(--mid);
 }
