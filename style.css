@@ -279,6 +279,11 @@ pre code {
   border-color: var(--mid);
 }
 
+/* Fix social link margin on contact page */
+.wp-block-social-links.aligncenter.has-large-icon-size.has-icon-color.is-style-logos-only {
+  margin-bottom: 1rem;
+}
+
 /* Format the footer */
 
 .gb-container.gb-container-ef71cf75 ul {
