@@ -267,14 +267,14 @@ pre code {
 }
 
 .wp-block-search .wp-block-search__button,
-.button {
+#wpforms-submit-5567 {
   background: var(--dark);
   border-color: var(--dark);
   color: white;
 }
 
 .wp-block-search__button:hover,
-.button {
+#wpforms-submit-5567 {
   background: var(--mid);
   border-color: var(--mid);
 }
