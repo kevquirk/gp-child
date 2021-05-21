@@ -274,7 +274,7 @@ pre code {
 }
 
 .wp-block-search__button:hover,
-#wpforms-submit-5567 {
+#wpforms-submit-5567:hover {
   background: var(--mid);
   border-color: var(--mid);
 }
