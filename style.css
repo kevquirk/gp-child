@@ -38,6 +38,28 @@
   src: url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600.woff');
 }
 
+/* Standard fira sans */
+/* fira-sans-regular - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-v11-latin-regular.woff2') format('woff2'),
+       url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-v11-latin-regular.woff') format('woff');
+}
+
+/* fira-sans-700 - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-v11-latin-700.woff2') format('woff2'),
+       url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-v11-latin-700.woff') format('woff');
+}
+
+
 /* Centre homepage avatar */
 .site-avatar {
   margin: 0 auto;
