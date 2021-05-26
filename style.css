@@ -427,7 +427,7 @@ cite {
   margin: .5rem .5rem 0 0;
   padding: .5rem;
   width: 45%;
-  height: 270px;
+  height: 250px;
   float: left;
 }
 
@@ -443,6 +443,11 @@ cite {
 
 .blogroll-banner p {
   margin-bottom: .5em;
+}
+
+.blogroll-banner a {
+  font-size: .8em;
+  text-align: center;
 }
 
 .blogroll-title {
