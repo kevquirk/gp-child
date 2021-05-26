@@ -428,13 +428,13 @@ cite {
   padding: .5rem;
   width: 45%;
   height: 300px;
-  flex: left;
+  float: left;
 }
 
 /* Make full width on mobile screens */
 @media only screen and (max-width: 700px)  {
   .blogroll-banner {
-    flex: none;
+    float: none;
     width: 100%;
   }
 }
