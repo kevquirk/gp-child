@@ -435,6 +435,7 @@ cite {
 @media only screen and (max-width: 700px)  {
   .blogroll-banner {
     float: none;
+    margin: .5rem 0;
     width: 100%;
     height: auto;
   }
