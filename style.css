@@ -439,6 +439,8 @@ cite {
     margin: .5rem 0;
     width: 100%;
     height: auto;
+  }
+  .blogroll-banner span {
     position: relative;
   }
 }
