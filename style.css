@@ -432,6 +432,12 @@ cite {
   float: left;
 }
 
+.blogroll-banner span {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
 /* Make full width on mobile screens */
 @media only screen and (max-width: 700px)  {
   .blogroll-banner {
@@ -441,7 +447,7 @@ cite {
     height: auto;
   }
   .blogroll-banner span {
-    position: relative !important;
+    position: relative;
   }
 }
 
@@ -451,11 +457,6 @@ cite {
 
 .blogroll-banner a {
   font-size: .85em;
-}
-
-.blogroll-banner span {
-  position: absolute;
-  bottom: 0;
 }
 
 .blogroll-title {
