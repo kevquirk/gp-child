@@ -436,7 +436,7 @@ cite {
   .blogroll-banner {
     float: none;
     width: 100%;
-    width: auto;
+    height: auto;
   }
 }
 
