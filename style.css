@@ -441,7 +441,7 @@ cite {
     height: auto;
   }
   .blogroll-banner span {
-    position: relative;
+    position: relative !important;
   }
 }
 
