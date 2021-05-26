@@ -424,7 +424,7 @@ cite {
 .blogroll-banner {
   background: var(--accent-bg);
   border: 3px solid var(--dark);
-  margin: .5rem;
+  margin: .5rem .5rem 0 0;
   padding: .5rem;
   width: 45%;
   height: 300px;
