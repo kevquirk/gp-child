@@ -424,20 +424,25 @@ cite {
 .blogroll-banner {
   background: var(--accent-bg);
   border: 3px solid var(--dark);
-  margin: 2rem 0;
+  margin: .5rem;
   padding: .5rem;
+  width: 45%;
+  height: 300px;
+  flex: left;
 }
 
-.blogroll-banner h2,
-.blogroll-banner-fav h2 {
-  margin-top: 0 !important;
+/* Make full width on mobile screens */
+@media only screen and (max-width: 700px)  {
+  .blogroll-banner {
+    flex: none;
+    width: 100%;
+  }
 }
 
-.blogroll-banner-fav {
-  background: #ffdaf8;
-  border: 3px solid var(--accent);
-  margin: 2rem 0;
-  padding: .5rem;
+.blogroll-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: .5em;
 }
 
 /* Format table stripes */
