@@ -271,6 +271,11 @@ pre code {
   padding: 0;
 }
 
+/* Fix enlightener plugin blocks */
+.EnlighterJSRAW {
+  color: var(--light);
+}
+
 /* Fix button border radius */
 .wp-block-button__link {
   border-radius: 0;
