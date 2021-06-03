@@ -4,7 +4,7 @@
  }
 
  pre {
-    background: var(--dark) !important;
+    background: var(--accent-bg) !important;
     max-width: 620px !important;
 }
 

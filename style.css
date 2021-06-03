@@ -262,12 +262,11 @@ code, kbd, tt, var {
 }
 
 pre {
-  background: var(--dark);
+  background: var(--accent-bg);
+  border: 2px solid var(--dark);
 }
 
 pre code {
-  color: var(--light);
-  background: none;
   padding: 0;
 }
 
