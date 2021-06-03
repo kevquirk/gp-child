@@ -267,6 +267,7 @@ pre {
 
 pre code {
   color: var(--light);
+  background: none;
   padding: 0;
 }
 
