@@ -274,6 +274,8 @@ pre code {
 /* Fix enlightener plugin blocks */
 .EnlighterJSRAW {
   color: var(--light);
+  font-family: monospace;
+  font-size: .8em;
 }
 
 /* Fix button border radius */
