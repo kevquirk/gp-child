@@ -273,7 +273,7 @@ pre code {
 
 /* Fix enlightener plugin blocks */
 .EnlighterJSRAW {
-  color: var(--light);
+  color: var(--dark);
   font-family: monospace;
   font-size: .8em;
 }
