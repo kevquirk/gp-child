@@ -430,6 +430,11 @@ cite {
   text-decoration-style: dotted;
 }
 
+/* Fix old notices using WP background */
+.has-background {
+  background: var(--dark);
+}
+
 .paging-navigation a {
   color: var(--dark) !important;
 }
