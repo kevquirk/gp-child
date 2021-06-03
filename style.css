@@ -409,6 +409,11 @@ cite {
   text-decoration-style: dotted;
 }
 
+.notice code,
+.notice-red code {
+  color: #fff;
+}
+
 .notice-red {
   background: var(--dark-red);
   color: #fff;
