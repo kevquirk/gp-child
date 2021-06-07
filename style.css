@@ -514,10 +514,10 @@ th {
 
 /* Format newsletter post embeds */
 .ng-article span {
-  font-size: 1.3em;
+  font-size: 1.3em !important;
 }
 
 .ngl-article-excerpt {
-  font-size: 1.1em;
-  color: var(--dark);
+  font-size: 1.1em !important;
+  color: var(--dark) !important;
 }
