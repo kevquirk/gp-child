@@ -518,3 +518,8 @@ th {
   font-size: 1.1em !important;
   color: var(--dark) !important;
 }
+
+/* Remove title from Newslette Archive */
+.tax-ngl_newsletter_cat .page-title {
+  display: none;
+}
