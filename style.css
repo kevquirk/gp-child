@@ -524,3 +524,37 @@ th {
 .tax-ngl_newsletter_cat .page-title {
   display: none;
 }
+
+/** Custom colours for Gutenberg editor **/
+
+/** Dark Blue **/
+.has-dark-blue-background-color {
+	background-color: #112154;
+}
+.has-dark-blue-color {
+	color: #112154;
+}
+
+/** Mid Blue **/
+.has-mid-blue-background-color {
+	background-color: #2778ba;
+}
+.has-mid-blue-color {
+	color: #2778ba;
+}
+
+/** Light Blue **/
+.has-light-blue-background-color {
+	background-color: #dbe5ee;
+}
+.has-light-blue-color {
+	color: #dbe5ee;
+}
+
+/** Pink **/
+.has-pink-background-color {
+	background-color: #ba0076;
+}
+.has-pink-color {
+	color: #ba0076;
+}
