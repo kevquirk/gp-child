@@ -53,3 +53,27 @@ function myfeed_request($qv) {
     return $qv;
 }
 add_filter('request', 'myfeed_request');
+
+// Add support for custom colour pallette in Gutenberg.
+add_theme_support( 'editor-color-palette', array(
+	array(
+		'name' => __( 'dark-blue', 'themeLangDomain' ),
+		'slug' => 'dark-blue',
+		'color' => '#112154',
+	),
+  array(
+		'name' => __( 'mid-blue', 'themeLangDomain' ),
+		'slug' => 'mid-blue',
+		'color' => '#2778ba',
+	),
+  array(
+		'name' => __( 'light-blue', 'themeLangDomain' ),
+		'slug' => 'light-blue',
+		'color' => '#dbe5ee',
+	),
+  array(
+		'name' => __( 'pink', 'themeLangDomain' ),
+		'slug' => 'pink',
+		'color' => '#ba0076',
+	),
+) );
