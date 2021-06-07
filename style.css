@@ -511,3 +511,13 @@ th {
   border-top: 2px solid var(--dark);
   margin: 1.5em auto;
 }
+
+/* Format newsletter post embeds */
+.ng-article span {
+  font-size: 1.3em;
+}
+
+.ngl-article-excerpt {
+  font-size: 1.1em;
+  color: var(--dark);
+}
