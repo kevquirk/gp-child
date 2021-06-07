@@ -100,14 +100,6 @@ h2.gb-headline-074e1a3b a:hover {
   color: var(--dark) !important;
 }
 
-.ngl-article span {
-  transition: .2s;
-}
-
-.ngl-article span:hover {
-  color: var(--mid);
-}
-
 .has-medium-font-size,
 .medium {
   font-size: 1.5rem !important;
@@ -513,8 +505,13 @@ th {
 }
 
 /* Format newsletter post embeds */
-.ng-article span {
+.ngl-article span {
   font-size: 1.3em !important;
+  transition: .2s;
+}
+
+.ngl-article span:hover {
+  color: var(--mid);
 }
 
 .ngl-article-excerpt {
