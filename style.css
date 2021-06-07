@@ -558,3 +558,8 @@ th {
 .has-pink-color {
 	color: #ba0076;
 }
+
+/* Select all on public key */
+.select-all {
+	user-select: all;
+}
