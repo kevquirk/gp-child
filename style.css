@@ -358,11 +358,6 @@ cite {
   font-style: normal;
 }
 
-/* Hide title on Newsletter archive page */
-.post-type-archive-newsletter .page-title {
-  display: none;
-}
-
 /* Format RSS lists */
 .wp-block-rss__item {
   list-style-type: none;
