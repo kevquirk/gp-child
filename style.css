@@ -38,6 +38,9 @@
   src: url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600.woff');
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* Centre homepage avatar */
 .site-avatar {
