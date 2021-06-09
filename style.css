@@ -358,6 +358,11 @@ cite {
   font-style: normal;
 }
 
+/* Hide title on Newsletter archive page */
+.post-type-archive-newsletter .page-title {
+  display: none;
+}
+
 /* Format RSS lists */
 .wp-block-rss__item {
   list-style-type: none;
@@ -513,11 +518,6 @@ th {
 .ngl-article-excerpt {
   font-size: 1.1em !important;
   color: var(--dark) !important;
-}
-
-/* Remove title from Newslette Archive */
-.tax-ngl_newsletter_cat .page-title {
-  display: none;
 }
 
 /** Custom colours for Gutenberg editor **/
