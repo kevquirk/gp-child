@@ -568,3 +568,8 @@ th {
 .select-all {
 	user-select: all;
 }
+
+/* Remove border-radius on to top button */
+.generate-back-to-top {
+  border-radius: 0;
+}
