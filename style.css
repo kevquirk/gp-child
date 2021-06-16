@@ -47,7 +47,7 @@
 /* merriweather-700 - latin */
 @font-face {
   font-family: 'Merriweather';
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
   src: local(''),
        url('/wp-content/themes/generatepress_child/fonts/merriweather/merriweather-v22-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
