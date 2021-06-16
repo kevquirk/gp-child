@@ -389,8 +389,10 @@ pre code {
 }
 
 cite {
-  font-size: .8em;
-  font-style: normal;
+  font-size: 1rem;
+  font-style: normal !important;
+  font-family: "Fira Sans Condensed"
+  color: var(--dark);
 }
 
 /* Format RSS lists */
