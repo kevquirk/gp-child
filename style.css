@@ -15,6 +15,7 @@
     --light: #dbe5ee;
     --accent-bg: rgba(0, 0, 0, .075);
     --accent: #ba0076;
+    --accent-text: #404a6a;
 
     /* Notice colours */
     --dark-red: #951818;
@@ -380,8 +381,11 @@ pre code {
 }
 
 .wp-block-quote {
+  font-family: Merriweather;
+  font-style: normal;
+  color: var(--accent-text);
   border-color: var(--dark);
-  font-size: 1em;
+  font-size: 1.15rem;
 }
 
 cite {
