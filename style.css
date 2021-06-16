@@ -388,10 +388,10 @@ pre code {
   font-size: 1.15rem;
 }
 
-cite,
-.wp-block-quote cite {
+cite {
   font-size: 1rem;
   font-family: "Fira Sans Condensed";
+  font-style: normal;
   color: var(--dark);
 }
 
