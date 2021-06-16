@@ -60,8 +60,8 @@
   font-style: normal;
   font-weight: 300;
   src: local(''),
-       url('/wp-content/themes/generatepress_child/fonts/merriweathermerriweather-v22-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/wp-content/themes/generatepress_child/fonts/merriweathermerriweather-v22-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/wp-content/themes/generatepress_child/fonts/merriweather/merriweather-v22-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/themes/generatepress_child/fonts/merriweather/merriweather-v22-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 html {
