@@ -77,3 +77,9 @@ add_theme_support( 'editor-color-palette', array(
 		'color' => '#ba0076',
 	),
 ) );
+
+// Increase scroll to top speed
+add_filter( 'generate_back_to_top_scroll_speed', 'tu_back_to_top_scroll_speed' );
+function tu_back_to_top_scroll_speed() {
+    return 200; // milliseconds
+}
