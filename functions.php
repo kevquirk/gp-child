@@ -9,7 +9,6 @@
  /* Load custom fonts to the customiser */
  add_filter( 'generate_typography_default_fonts', function( $fonts ) {
     $fonts[] = 'Fira Sans Condensed';
-    $fonts[] = 'Merriweather';
     return $fonts;
 } );
 
@@ -78,3 +77,9 @@ add_theme_support( 'editor-color-palette', array(
 		'color' => '#ba0076',
 	),
 ) );
+
+// Increase scroll to top speed
+add_filter( 'generate_back_to_top_scroll_speed', 'tu_back_to_top_scroll_speed' );
+function tu_back_to_top_scroll_speed() {
+    return 50; // milliseconds
+}
