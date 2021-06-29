@@ -559,6 +559,14 @@ th {
 	color: #dbe5ee;
 }
 
+/** Accent Light Blue **/
+.has-accent-light-blue-background-color {
+	background-color: #c7d4e0;
+}
+.has-accent-light-blue-color {
+	color: #c7d4e0;
+}
+
 /** Pink **/
 .has-pink-background-color {
 	background-color: #ba0076;

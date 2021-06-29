@@ -72,6 +72,11 @@ add_theme_support( 'editor-color-palette', array(
 		'color' => '#dbe5ee',
 	),
   array(
+		'name' => __( 'accent-light-blue', 'themeLangDomain' ),
+		'slug' => 'accent-light-blue',
+		'color' => '#c7d4e0',
+	),
+  array(
 		'name' => __( 'pink', 'themeLangDomain' ),
 		'slug' => 'pink',
 		'color' => '#ba0076',
