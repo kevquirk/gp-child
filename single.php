@@ -26,7 +26,7 @@ get_header(); ?>
       // Old post notice
         $old_post = 60*60*24*365; // This is a year
         if((date('U')-get_the_time('U')) > $old_post) {
-        echo '<div class="notice">This post was last updated over a year ago, therefore it may be out of date. Please see <a href="/disclaimer">my disclaimer</a> for more info.</div>';
+        echo '<div class="notice-red">This post was last updated over a year ago, therefore it may be out of date. Please see <a href="/disclaimer">my disclaimer</a> for more info.</div>';
         }
 
 				while ( have_posts() ) :
