@@ -590,3 +590,7 @@ th {
 .generate-back-to-top {
   border-radius: 0;
 }
+
+.wp-block-separator.is-style-dots {
+  color: var(--dark);
+}
