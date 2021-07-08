@@ -361,7 +361,7 @@ pre code {
   font-family: serif;
   color: var(--accent-text);
   border-color: var(--dark);
-  font-size: 1.15rem;
+  font-size: 20px;
 }
 
 .wp-block-quote.is-style-large {
