@@ -240,15 +240,6 @@ figcaption {
   border: none !important;
 }
 
-.wp-block-quote.is-style-large {
-  border-left: none;
-  margin: 3em 0 !important;
-  padding: 1em 0;
-  border-top: 2px solid var(--dark);
-  border-bottom: 2px solid var(--dark);
-  text-align: center;
-}
-
 /* Hide title on 404 page */
 .error404 .entry-title {
   display: none;
@@ -367,14 +358,25 @@ pre code {
 }
 
 .wp-block-quote {
-  font-style: normal;
+  font-family: serif;
   color: var(--accent-text);
   border-color: var(--dark);
   font-size: 1.15rem;
 }
 
+.wp-block-quote.is-style-large {
+  border-left: none;
+  margin: 3em 0 !important;
+  padding: 1em 0;
+  border-top: 2px solid var(--dark);
+  border-bottom: 2px solid var(--dark);
+  text-align: center;
+  font-family: serif;
+}
+
 cite {
   font-size: 1rem !important;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   color: var(--dark);
 }
