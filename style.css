@@ -242,7 +242,7 @@ figcaption {
 
 .wp-block-quote.is-style-large {
   border-left: none;
-  margin: 3em 0;
+  margin: 3em 0 !important;
   padding: 1em 0;
   border-top: 2px solid var(--dark);
   border-bottom: 2px solid var(--dark);
