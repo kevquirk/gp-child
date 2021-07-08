@@ -265,6 +265,7 @@ input.search-field {
 /* Format code and pre blocks */
 
 code, kbd, tt, var {
+  font-size: 1.1rem;
   color: var(--dark);
   background: var(--accent-bg);
   padding: 5px;
@@ -278,6 +279,7 @@ pre {
 pre code {
   padding: 0;
   background: none;
+  font-size: .95rem
 }
 
 /* Fix enlightener plugin blocks */
