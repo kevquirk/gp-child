@@ -68,6 +68,15 @@ html {
   border-bottom: 3px solid var(--dark);
 }
 
+/* Hover effect on site logo */
+.header-image.is-logo-image {
+  transition: .2s;
+}
+
+.header-image.is-logo-image:hover {
+  opacity: .75;
+}
+
 /* Typography */
 #page h2,
 #page h3 {
