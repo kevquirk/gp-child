@@ -88,3 +88,10 @@ add_filter( 'generate_back_to_top_scroll_speed', 'tu_back_to_top_scroll_speed' )
 function tu_back_to_top_scroll_speed() {
     return 50; // milliseconds
 }
+
+// Add shortcode for reply via mail link
+add_shortcode( 'reply_link', 'reply_link' );
+
+function reply_link( $atts ) {
+    return esc_attr( get_the_title( get_the_ID() ) );
+}
