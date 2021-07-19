@@ -90,8 +90,8 @@ function tu_back_to_top_scroll_speed() {
 }
 
 // Add shortcode for reply via mail link
-add_shortcode( 'reply_link', 'reply_link' );
+add_shortcode( 'custom_mailto_title', 'custom_mailto_title' );
 
-function reply_link( $atts ) {
+function custom_mailto_title( $atts ) {
     return esc_attr( get_the_title( get_the_ID() ) );
 }
