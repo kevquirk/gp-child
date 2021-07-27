@@ -19,6 +19,8 @@
 
     /* Notice colours */
     --dark-red: #951818;
+
+    --serif-font: Georgia, "Times New Roman", serif;
  }
 
 /* Load custom fonts */
@@ -367,7 +369,7 @@ pre code {
 }
 
 .wp-block-quote {
-  font-family: serif;
+  font-family: var(--serif-font);
   color: var(--accent-text);
   border-color: var(--dark);
   font-size: 20px;
@@ -380,7 +382,7 @@ pre code {
   border-top: 2px solid var(--dark);
   border-bottom: 2px solid var(--dark);
   text-align: center;
-  font-family: serif;
+  font-family: var(--serif-font);
 }
 
 cite {
