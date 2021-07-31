@@ -85,6 +85,10 @@ html {
   margin-top: 4rem;
 }
 
+.inside-article a:hover {
+  text-decoration: underline;
+}
+
 .intro {
   line-height: 1.3;
 }
