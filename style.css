@@ -85,8 +85,12 @@ html {
   margin-top: 4rem;
 }
 
-.inside-article a:hover {
+.inside-article a {
   text-decoration: underline;
+}
+
+.inside-article a:hover {
+  text-decoration-style: dotted;
 }
 
 .intro {
