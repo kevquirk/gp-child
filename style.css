@@ -472,10 +472,12 @@ cite {
   color: var(--dark) !important;
 }
 
-.paging-navigation a:hover {
+.paging-navigation a {
   color: var(--dark) !important;
   text-decoration: underline;
-  text-decoration-thickness: .15rem;
+  text-decoration-thickness: .15rem;}
+
+.paging-navigation a:hover {
   text-decoration-style: dotted;
 }
 
