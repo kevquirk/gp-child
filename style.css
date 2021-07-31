@@ -357,7 +357,7 @@ pre code {
 }
 
 .kb-club a {
-	text-decoration: none;
+	text-decoration: none !important;
 	padding: .5rem 0;
 }
 
