@@ -93,6 +93,10 @@ html {
   text-decoration-style: dotted;
 }
 
+.wp-block-button__link {
+  text-decoration: none !important;
+}
+
 .intro {
   line-height: 1.3;
 }
