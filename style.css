@@ -13,7 +13,7 @@
     --dark: #112154;
     --mid: #2778ba;
     --light: #dbe5ee;
-    --accent-bg: rgba(0, 0, 0, .075);
+    --accent-bg: #c7d4e0;
     --accent: #ba0076;
     --accent-text: #404a6a;
 
@@ -361,26 +361,28 @@ cite {
 
 /****** Format the notice boxes ******/
 
-.notice,
+.notice {
+  background: var(--accent-bg);
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
 .notice-blue {
   background: var(--dark);
   color: #fff;
   padding: 1rem 2rem;
 }
 
-.notice a,
 .notice-blue a {
   color: #fff !important;
   text-decoration: underline;
   text-decoration-thickness: .15rem;
 }
 
-.notice a:hover,
 .notice-blue a:hover {
   text-decoration-style: dotted;
 }
 
-.notice code,
 .notice-red code {
   color: #fff;
 }
