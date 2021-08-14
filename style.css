@@ -531,6 +531,14 @@ th {
   margin-bottom: 0px !important;
 }
 
+.ngl-form-input-text, input.ngl-form-input-text {
+  padding: 20px 10px !important;
+}
+
+.ngl-form.ngl-portrait .ngl-form-button {
+  font-size: 20px !important;
+}
+
 /** Custom colours for Gutenberg editor **/
 
 /** Dark Blue **/
