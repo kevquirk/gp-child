@@ -384,6 +384,7 @@ cite {
 .notice {
   background: var(--accent-bg);
   padding: 1rem 2rem;
+  border-left: 5px solid var(--dark);
 }
 
 .notice-blue {
