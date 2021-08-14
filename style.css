@@ -533,7 +533,7 @@ th {
 
 .ngl-form-input-text, input.ngl-form-input-text {
   padding: 20px 10px !important;
-  border-color: white !important;
+  border: none !important;
 }
 
 .ngl-form.ngl-portrait .ngl-form-button {
