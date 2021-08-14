@@ -36,6 +36,16 @@
        url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* fira-sans-condensed-italic - latin */
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /* fira-sans-condensed-600 - latin */
 @font-face {
   font-family: 'Fira Sans Condensed';
@@ -45,6 +55,16 @@
   src: local(''),
        url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* fira-sans-condensed-600italic - latin */
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  font-style: italic;
+  font-weight: 600;
+  src: local(''),
+       url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 html {
