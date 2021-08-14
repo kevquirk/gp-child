@@ -540,6 +540,11 @@ th {
   font-size: 20px !important;
 }
 
+.ngl-form.ngl-portrait .ngl-form-button:hover {
+  border-color: var(--mid) !important;
+  background-color: var(--mid) !important;
+}
+
 /** Custom colours for Gutenberg editor **/
 
 /** Dark Blue **/
