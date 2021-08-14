@@ -16,7 +16,10 @@
 .notice,
 .notice-blue,
 .notice-red {
-  border: none !important;
+  border-left: 5px solid var(--dark) !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
 }
 
 .wp-block-rss {
