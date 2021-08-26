@@ -235,7 +235,7 @@ code, kbd, tt, var {
 
 pre {
   background: #EFEFEF;
-  border: 2px solid #C2C5CC;
+  border: 1px solid #C2C5CC;
 }
 
 pre code {
