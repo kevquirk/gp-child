@@ -235,8 +235,9 @@ input.search-field {
 
 code, kbd, tt, var {
   color: var(--dark);
-  background: var(--accent-bg);
+  background: #EFEFEF;
   padding: 5px;
+  border: 1px solid #C2C5CC;
 }
 
 pre {
