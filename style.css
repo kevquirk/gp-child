@@ -195,10 +195,6 @@ h2.gb-headline-074e1a3b a:hover {
   text-decoration-thickness: .15rem;
 }
 
-.wp-block-image img {
-  border: 3px solid var(--dark);
-}
-
 /* Made Gutenberd wide images work */
 @media(min-width: 768px) {
   .single .entry-content .alignwide {
@@ -212,11 +208,6 @@ figcaption {
   font-size: .9rem;
   text-align: center;
   opacity: .7;
-}
-
-.no-border,
-.no-border img {
-  border: none !important;
 }
 
 /* Hide title on 404 page */
@@ -243,8 +234,8 @@ code, kbd, tt, var {
 }
 
 pre {
-  background: var(--accent-bg);
-  border: 2px solid var(--dark);
+  background: #EFEFEF;
+  border: 2px solid #C2C5CC;
 }
 
 pre code {
