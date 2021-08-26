@@ -21,6 +21,7 @@
     --dark-red: #951818;
 
     --serif-font: Georgia, "Times New Roman", serif;
+    --mono-font: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
  }
 
 /* Load custom fonts */
@@ -234,6 +235,7 @@ input.search-field {
 /* Format code and pre blocks */
 
 code, kbd, tt, var {
+  font-family: var(--mono-font);
   color: var(--dark);
   background: #EFEFEF;
   padding: 5px;
