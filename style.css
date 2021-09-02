@@ -220,7 +220,6 @@ figcaption {
   background: var(--dark);
   color: var(--accent-bg);
   padding: .5rem .75rem;
-  margin-left: 1rem;
 }
 
 .gb-headline-32f3910c a:hover {
