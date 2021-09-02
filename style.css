@@ -210,8 +210,8 @@ figcaption {
   opacity: .7;
 }
 
-/* Hide title on 404 page */
-.error404 .entry-title {
+/* Hide date across site (it's displayed in the post header block) */
+.entry-meta {
   display: none;
 }
 
@@ -224,7 +224,6 @@ input.search-field {
 }
 
 /* Format code and pre blocks */
-
 code, kbd, tt, var {
   font-family: var(--mono-font);
   color: var(--dark);
@@ -282,7 +281,6 @@ pre code {
 }
 
 /* Format the footer */
-
 .gb-container.gb-container-ef71cf75 ul {
   margin-left: 0;
   list-style-type: none;
@@ -302,7 +300,6 @@ pre code {
 }
 
 /* Format 512kb blub banner in footer */
-
 .kb-club {
 	margin-top: 1.5rem;
   text-align: center;
