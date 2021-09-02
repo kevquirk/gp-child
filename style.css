@@ -227,6 +227,10 @@ figcaption {
   margin: 0;
 }
 
+.gb-headline-32f3910c a:hover {
+  background: var(--mid);
+}
+
 input.search-field {
   border-radius: 0;
   appearance: none;
