@@ -164,6 +164,7 @@ h2.gb-headline-074e1a3b a:hover {
 
 .tldr {
   font-family: var(--serif-font);
+  border-top: 2px solid var(--dark);
   text-align: center;
   margin-bottom: 4rem;
 }
