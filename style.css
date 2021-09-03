@@ -210,8 +210,10 @@ figcaption {
   opacity: .7;
 }
 
-/* Hide date across site (it's displayed in the post header block) */
-.entry-meta {
+/* Hide certain elements that can't be done on the block editor */
+.entry-meta, /* date on blog posts (replaced by custom element) */
+.post-type-archive-notes .page-title /* title on notes page */
+{
   display: none;
 }
 
