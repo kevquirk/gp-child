@@ -178,7 +178,7 @@ h2.gb-headline-074e1a3b a:hover {
   font-size: 1.2rem;
   font-family: var(--sans-font);
   top: -2.75rem;
-  background: var(--light);
+  background: var(--accent-bg);
   width: 4rem;
   margin: 0 auto;
 }
