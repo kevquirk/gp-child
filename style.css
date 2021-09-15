@@ -109,7 +109,6 @@ html {
 
 .inside-article a {
   text-decoration: underline;
-  transition: .2s;
 }
 
 .inside-article a:hover {
