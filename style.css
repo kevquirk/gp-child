@@ -651,7 +651,7 @@ th {
 .catlist a {
   color: var(--dark);
   border: 2px solid var(--dark);
-  padding: 5px 15px;
+  padding: 5px 10px;
   line-height: 3;
 }
 
