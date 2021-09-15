@@ -636,5 +636,5 @@ th {
 .catlist a:hover,
 .catlist a:active {
   background: var(--dark);
-  color: var(--accent-bg);
+  color: var(--accent-bg) !important;
 }
