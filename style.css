@@ -612,6 +612,7 @@ th {
 .catlist li {
   font-size: 1rem;
   display: inline;
+  margin-right: 1.5rem;
 }
 
 .catlist {
@@ -625,10 +626,9 @@ th {
   color: var(--dark);
   border: 2px solid var(--dark);
   padding: 5px 15px;
-  margin-right: 1.5rem;
   line-height: 2;
 }
 
-.catlist a:last-child {
+.catlist li:last-child {
   margin-right: 0;
 }
