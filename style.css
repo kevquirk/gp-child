@@ -652,7 +652,7 @@ th {
   color: var(--dark);
   border: 2px solid var(--dark);
   padding: 5px 15px;
-  line-height: 2.5;
+  line-height: 3;
 }
 
 .catlist a:hover,
