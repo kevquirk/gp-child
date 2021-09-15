@@ -609,17 +609,21 @@ th {
 }
 
 /* Format category list on posts page */
+.catlist {
+  list-style-type: none;
+  margin-left: 0;
+  line-height: 2;
+  text-align: center;
+}
+
 .catlist li {
   font-size: 1rem;
   display: inline;
   margin-right: 1.5rem;
 }
 
-.catlist {
-  list-style-type: none;
-  margin-left: 0;
-  line-height: 2;
-  text-align: center;
+.catlist li:last-child {
+  margin-right: 0;
 }
 
 .catlist a {
@@ -629,6 +633,8 @@ th {
   line-height: 2;
 }
 
-.catlist li:last-child {
-  margin-right: 0;
+.castlist a:hover,
+.castlist a:active {
+  background: var(--dark);
+  color: var(--accent-bg);
 }
