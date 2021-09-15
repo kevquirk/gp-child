@@ -112,7 +112,7 @@ html {
 }
 
 .inside-article a:hover {
-  text-decoration-thickness: .2rem;
+  text-decoration-style: underline;
 }
 
 .wp-block-button__link {
