@@ -241,14 +241,15 @@ figcaption {
 }
 
 /* Format categories in post header */
-.gb-headline-32f3910c a {
-  background: var(--dark);
-  color: var(--accent-bg);
-  padding: .5rem .75rem;
+.post-category-buttons a {
+  border: 2px solid var(--dark);
+  color: var(--dark);
+  padding: 5px 10px;
 }
 
-.gb-headline-32f3910c a:hover {
-  background: var(--mid);
+.post-category-buttons a:hover {
+  background: var(--dark);
+  color: var(--accent-bg);
 }
 
 input.search-field {
