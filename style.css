@@ -607,3 +607,14 @@ th {
 .wp-block-separator.is-style-dots {
   color: var(--dark);
 }
+
+/* Format category list on posts page */
+.catlist li {
+  font-size: 1rem;
+  display: inline;
+}
+
+.catlist {
+  list-style-type: none;
+  margin-left: 0;
+}
