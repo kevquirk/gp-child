@@ -35,25 +35,6 @@ add_filter( 'get_the_archive_title', function ($title) {
       return $title;
   });
 
-  // Add "Archive" to the end of archive titles, but exclude Notes
-  add_filter( 'get_the_archive_title', function ( $title ) {
-    if( get_post_type() == 'notes' ) {
-      $title_postfix = '';
-    } else {
-      $title_postfix = ' Archive';
-    }
-	$title .=  $title_postfix;
-	return $title;
-},50);
-
-// Add notes to main feed
-function myfeed_request($qv) {
-    if (isset($qv['feed']) && !isset($qv['post_type']))
-        $qv['post_type'] = array('post', 'notes');
-    return $qv;
-}
-add_filter('request', 'myfeed_request');
-
 // Add support for custom colour pallette in Gutenberg.
 add_theme_support( 'editor-color-palette', array(
 	array(
