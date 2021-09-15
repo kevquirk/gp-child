@@ -109,10 +109,11 @@ html {
 
 .inside-article a {
   text-decoration: underline;
+  transition: .2s;
 }
 
 .inside-article a:hover {
-  text-decoration-style: dotted;
+  text-decoration-thickness: .2rem;
 }
 
 .wp-block-button__link {
