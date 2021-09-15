@@ -618,3 +618,10 @@ th {
   list-style-type: none;
   margin-left: 0;
 }
+
+.catlist a {
+  color: var(--dark);
+  border: 2px solid var(--dark);
+  padding: 5px 15px;
+  margin-right: 1.5rem;
+}
