@@ -660,3 +660,7 @@ th {
   background: var(--dark);
   color: var(--accent-bg);
 }
+/* Hide titles on category archives */
+.page-header {
+  display: none;
+}
