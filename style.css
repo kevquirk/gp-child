@@ -641,7 +641,7 @@ th {
 .catlist li {
   font-size: 1rem;
   display: inline;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
 
 .catlist li:last-child {
@@ -652,7 +652,7 @@ th {
   color: var(--dark);
   border: 2px solid var(--dark);
   padding: 5px 15px;
-  line-height: 2;
+  line-height: 2.5;
 }
 
 .catlist a:hover,
