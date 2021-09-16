@@ -488,6 +488,14 @@ cite {
   bottom: 0;
 }
 
+.blogroll-sub-title {
+  margin-top: -1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
 .border {
   border: 3px solid var(--dark);
   padding: 1rem;
