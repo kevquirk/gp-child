@@ -94,8 +94,9 @@ html {
   font-family: var(--sans-font);
 }
 
-/* Header fonts */
-h1, h2, h3, h4, h5, h6 {
+/* Make stuff use header font */
+h1, h2, h3, h4, h5, h6,
+.home-banner {
   font-family: var(--serif-font);
   font-weight: bold;
 }
