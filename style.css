@@ -312,13 +312,13 @@ code, kbd, tt, var {
 pre {
   background: #EFEFEF;
   border: 1px solid #C2C5CC;
+  font-size: 1rem
 }
 
 pre code {
   padding: 0;
   background: none;
   border: none;
-  font-size: 1.1rem
 }
 
 /* Fix enlightener plugin blocks */
