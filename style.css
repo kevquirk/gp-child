@@ -190,7 +190,8 @@ h2.gb-headline-074e1a3b a:hover {
 .tldr,
 .medium,
 .has-medium-font-size,
-.notice {
+.notice,
+.notice-red {
   font-size: 1.6rem !important;
   line-height: 1.3;
   font-family: var(--serif-font);
@@ -204,7 +205,8 @@ h2.gb-headline-074e1a3b a:hover {
 .tldr::before,
 .medium::before,
 .has-medium-font-size::before,
-.notice::before {
+.notice::before,
+.notice-red::before {
   display: block;
   position: relative;
   font-size: 1.2rem;
@@ -221,6 +223,10 @@ h2.gb-headline-074e1a3b a:hover {
 
 .notice::before {
   content: " 📝 Note ";
+}
+
+.notice-red::before {
+  content: " ⚠️ WARNING ";
 }
 
 .has-large-font-size {
