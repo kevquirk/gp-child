@@ -213,20 +213,22 @@ h2.gb-headline-074e1a3b a:hover {
   font-family: var(--sans-font);
   top: -2.75rem;
   background: var(--light);
-  width: 4rem;
   margin: 0 auto;
 }
 
 .tldr::before {
   content: " TL;DR ";
+  width: 4rem;
 }
 
 .notice::before {
   content: " 📝 Note ";
+  width: 5rem;
 }
 
 .notice-red::before {
   content: " ⚠️ WARNING ";
+  width: 6rem;
 }
 
 .has-large-font-size {
