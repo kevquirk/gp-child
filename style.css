@@ -312,7 +312,7 @@ code, kbd, tt, var {
 pre {
   background: #EFEFEF;
   border: 1px solid #C2C5CC;
-  font-size: 1rem
+  font-size: 1rem;
 }
 
 pre code {
