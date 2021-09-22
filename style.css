@@ -402,16 +402,17 @@ pre code {
   font-family: var(--serif-font);
   font-style: normal;
   color: var(--accent-text);
-  border-color: var(--dark);
+  border-color: var(--accent-bg);
   font-size: 22px;
 }
 
 .wp-block-quote.is-style-large {
   border-left: none;
   margin: 3em 0 !important;
+  line-height: 1.2;
   padding: 1em 0;
-  border-top: 2px solid var(--dark);
-  border-bottom: 2px solid var(--dark);
+  border-top: 2px solid var(--accent-bg);
+  border-bottom: 2px solid var(--accent-bg);
   text-align: center;
   font-family: var(--serif-font);
   font-style: normal;
