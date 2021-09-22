@@ -420,6 +420,7 @@ pre code {
 
 .wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
   font-style: normal;
+  margin-bottom: 0;
 }
 
 cite {
