@@ -303,6 +303,7 @@ input.search-field {
 /* Format code and pre blocks */
 code, kbd, tt, var {
   font-family: var(--mono-font);
+  font-size: 1rem;
   color: var(--dark);
   background: #EFEFEF;
   padding: 5px;
@@ -312,7 +313,6 @@ code, kbd, tt, var {
 pre {
   background: #EFEFEF;
   border: 1px solid #C2C5CC;
-  font-size: 1rem;
 }
 
 pre code {
