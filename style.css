@@ -228,7 +228,7 @@ h2.gb-headline-074e1a3b a:hover {
 
 .notice-red::before {
   content: " ⚠️ WARNING ";
-  width: 6rem;
+  width: 8rem;
 }
 
 .has-large-font-size {
