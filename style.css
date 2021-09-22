@@ -224,11 +224,13 @@ h2.gb-headline-074e1a3b a:hover {
 .notice::before {
   content: " 📝 Note ";
   width: 5rem;
+  margin-top: 4rem;
 }
 
 .notice-red::before {
   content: " ⚠️ WARNING ";
   width: 8rem;
+  margin-top: 4rem;
 }
 
 .has-large-font-size {
