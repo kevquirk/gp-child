@@ -20,7 +20,7 @@
     /* Notice colours */
     --dark-red: #951818;
 
-    --serif-font: "Meta Serif", Georgia, "Times New Roman", serif;
+    --serif-font: "Stint", Georgia, "Times New Roman", serif;
     --sans-font: "Fira Sans Condensed", Arial, sans-serif;
     --mono-font: "Fira Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
  }
@@ -99,17 +99,20 @@
       url('/wp-content/themes/generatepress_child/fonts/meta-serif/bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* STINT font */
+@font-face {
+  font-family: 'Stint';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+      url('/wp-content/themes/generatepress_child/fonts/stint/stint.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/wp-content/themes/generatepress_child/fonts/stint/stint.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html {
   scroll-behavior: smooth;
   font-family: var(--sans-font);
-}
-
-/* Make stuff use header font */
-h1, h2, h3, h4, h5, h6,
-.home-banner,
-.medium,
-.tldr {
-  font-family: var(--serif-font);
 }
 
 /* Centre homepage avatar */
