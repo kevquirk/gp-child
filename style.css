@@ -409,7 +409,6 @@ pre code {
 .wp-block-quote.is-style-large {
   border-left: none;
   margin: 3em 0 !important;
-  line-height: 1.2;
   padding: 1em 0;
   border-top: 2px solid var(--accent-bg);
   border-bottom: 2px solid var(--accent-bg);
@@ -420,7 +419,8 @@ pre code {
 
 .wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
   font-style: normal;
-  margin-bottom: 0;
+  margin-bottom: .5rem;
+  line-height: 1.2;
 }
 
 cite {
