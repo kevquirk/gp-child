@@ -408,6 +408,7 @@ pre code {
 
 .wp-block-quote {
   font-family: var(--serif-font);
+  font-style: normal;
   color: var(--accent-text);
   border-color: var(--dark);
   font-size: 22px;
@@ -421,6 +422,7 @@ pre code {
   border-bottom: 2px solid var(--dark);
   text-align: center;
   font-family: var(--serif-font);
+  font-style: normal;
 }
 
 cite {
