@@ -20,7 +20,7 @@
     /* Notice colours */
     --dark-red: #951818;
 
-    --serif-font: Georgia, "Times New Roman", serif;
+    --serif-font: "Wayfinder", Georgia, "Times New Roman", serif;
     --sans-font: "Fira Sans Condensed", Arial, sans-serif;
     --mono-font: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
  }
@@ -69,8 +69,35 @@
        url('/wp-content/themes/generatepress_child/fonts/fira/fira-sans-condensed-v5-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/**** WAYFINDER FONT ****/
+@font-face {
+  font-family: 'Wayfinder';
+  font-style: italic;
+  font-weight: 600;
+  src: local(''),
+       url('/wp-content/themes/generatepress_child/fonts/wayfinder/wayfinder-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/wp-content/themes/generatepress_child/fonts/wayfinder/wayfinder-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Wayfinder';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+      url('/wp-content/themes/generatepress_child/fonts/wayfinder/wayfinder.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/wp-content/themes/generatepress_child/fonts/wayfinder/wayfinder.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html {
   scroll-behavior: smooth;
+  font-family: var(--sans-font);
+}
+
+/* Header fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif-font);
+  font-weight: bold;
 }
 
 /* Centre homepage avatar */
