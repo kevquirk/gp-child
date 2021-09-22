@@ -187,14 +187,12 @@ h2.gb-headline-074e1a3b a:hover {
   color: var(--dark) !important;
 }
 
-.has-medium-font-size,
+.tldr,
 .medium,
-.tldr {
+.has-medium-font-size,
+.notice {
   font-size: 1.6rem !important;
   line-height: 1.3;
-}
-
-.tldr {
   font-family: var(--serif-font);
   border-top: 2px solid var(--accent-bg);
   border-bottom: 2px solid var(--accent-bg);
@@ -203,8 +201,10 @@ h2.gb-headline-074e1a3b a:hover {
   margin-bottom: 4rem;
 }
 
-.tldr::before {
-  content: " TL;DR ";
+.tldr::before,
+.medium::before,
+.has-medium-font-size::before,
+.notice::before {
   display: block;
   position: relative;
   font-size: 1.2rem;
@@ -213,6 +213,14 @@ h2.gb-headline-074e1a3b a:hover {
   background: var(--light);
   width: 4rem;
   margin: 0 auto;
+}
+
+.tldr::before {
+  content: " TL;DR ";
+}
+
+.notice::before {
+  content: " 📝 Note ";
 }
 
 .has-large-font-size {
@@ -446,50 +454,6 @@ cite {
 .container.grid-container ul.wp-block-rss a {
   font-size: 1.2em;
   font-weight: bold;
-}
-
-/****** Format the notice boxes ******/
-
-.notice {
-  background: var(--accent-bg);
-  padding: 1rem 2rem;
-  border-left: 5px solid var(--dark);
-}
-
-.notice-blue {
-  background: var(--dark);
-  color: #fff;
-  padding: 1rem 2rem;
-}
-
-.notice-blue a {
-  color: #fff !important;
-  text-decoration: underline;
-  text-decoration-thickness: .15rem;
-}
-
-.notice-blue a:hover {
-  text-decoration-style: dotted;
-}
-
-.notice-red code {
-  color: #fff;
-}
-
-.notice-red {
-  background: var(--dark-red);
-  color: #fff;
-  padding: 1rem 2rem;
-}
-
-.notice-red a {
-  color: #fff !important;
-  text-decoration: underline;
-  text-decoration-thickness: .15rem;
-}
-
-.notice-red a:hover {
-  text-decoration-style: dotted;
 }
 
 /* Fix old notices using WP background */
