@@ -241,8 +241,8 @@ h2.gb-headline-074e1a3b a:hover {
 
 .wp-block-quote.is-style-large::before,
 .wp-block-quote::before {
-  content: open-quote;
-  width: 1rem;
+  content: " 💬 ";
+  width: 2rem;
 }
 
 .tldr,
