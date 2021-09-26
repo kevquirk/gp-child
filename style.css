@@ -263,7 +263,6 @@ blockquote {
 }
 
 .wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
-  margin-bottom: 0rem !important;
   line-height: 1.2;
 }
 
@@ -272,6 +271,7 @@ cite {
   font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   color: var(--dark);
+  margin-top: -1rem;
 }
 
 .has-large-font-size {
