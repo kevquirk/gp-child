@@ -204,7 +204,9 @@ h2.gb-headline-074e1a3b a:hover {
 .medium::before,
 .has-medium-font-size::before,
 .notice::before,
-.notice-red::before {
+.notice-red::before,
+.wp-block-quote.is-style-large,
+.wp-block-quote {
   display: block;
   position: relative;
   font-size: 1.2rem;
@@ -235,11 +237,50 @@ h2.gb-headline-074e1a3b a:hover {
   font-size: 1.4rem;
 }
 
+.wp-block-quote.is-style-large,
+.wp-block-quote {
+  content: open-quote;
+  width: .75rem;
+}
+
 .tldr,
 .medium,
 .has-medium-font-size {
   font-size: 1.6rem !important;
   line-height: 1.3;
+}
+
+/* Blockquotes */
+.wp-block-quote {
+  font-family: var(--serif-font);
+  font-style: normal;
+  color: var(--accent-text);
+  border-color: var(--accent-bg);
+  font-size: 22px;
+}
+
+.wp-block-quote.is-style-large {
+  border-left: none;
+  margin: 3em 0 !important;
+  padding: 1em 0;
+  border-top: 2px solid var(--accent-bg);
+  border-bottom: 2px solid var(--accent-bg);
+  text-align: center;
+  font-family: var(--serif-font);
+  font-style: normal;
+}
+
+.wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
+  font-style: normal;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+}
+
+cite {
+  font-size: 1rem !important;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-style: normal;
+  color: var(--dark);
 }
 
 .has-large-font-size {
@@ -423,38 +464,6 @@ pre code {
 	border: 3px solid #FBC02D;
 	color: var(--dark);
 	padding: .5rem 1rem;
-}
-
-.wp-block-quote {
-  font-family: var(--serif-font);
-  font-style: normal;
-  color: var(--accent-text);
-  border-color: var(--accent-bg);
-  font-size: 22px;
-}
-
-.wp-block-quote.is-style-large {
-  border-left: none;
-  margin: 3em 0 !important;
-  padding: 1em 0;
-  border-top: 2px solid var(--accent-bg);
-  border-bottom: 2px solid var(--accent-bg);
-  text-align: center;
-  font-family: var(--serif-font);
-  font-style: normal;
-}
-
-.wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
-  font-style: normal;
-  margin-bottom: .5rem;
-  line-height: 1.2;
-}
-
-cite {
-  font-size: 1rem !important;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-style: normal;
-  color: var(--dark);
 }
 
 /* Format RSS lists */
