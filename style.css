@@ -262,16 +262,18 @@ blockquote {
   border-left: none;
 }
 
-.wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
+.wp-block-quote,
+.wp-block-quote.is-large p,
+.wp-block-quote.is-style-large p {
   line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 cite {
   font-size: 1rem !important;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: var(--sans-font);
   font-style: normal;
   color: var(--dark);
-  margin-top: -1rem;
 }
 
 .has-large-font-size {
