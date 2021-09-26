@@ -191,7 +191,9 @@ h2.gb-headline-074e1a3b a:hover {
 .medium,
 .has-medium-font-size,
 .notice,
-.notice-red {
+.notice-red,
+.wp-block-quote.is-style-large,
+.wp-block-quote {
   font-family: var(--serif-font);
   border-top: 2px solid var(--accent-bg);
   border-bottom: 2px solid var(--accent-bg);
