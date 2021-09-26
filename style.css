@@ -225,13 +225,13 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .notice::before {
-  content: " 📝 Note ";
-  width: 5rem;
+  content: " 📝 ";
+  width: 3rem;
 }
 
 .notice-red::before {
-  content: " ⚠️ WARNING ";
-  width: 8rem;
+  content: " ⚠️ ";
+  width: 3rem;
 }
 
 .notice,
