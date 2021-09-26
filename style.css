@@ -254,7 +254,7 @@ h2.gb-headline-074e1a3b a:hover {
 
 /* Blockquotes */
 blockquote {
-  text-decoration: normal !important;
+  font-style: normal !important;
 }
 
 .wp-block-quote,
@@ -263,7 +263,6 @@ blockquote {
 }
 
 .wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
-  font-style: normal;
   margin-bottom: .5rem;
   line-height: 1.2;
 }
