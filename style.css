@@ -262,7 +262,7 @@ blockquote {
   border-left: none;
 }
 
-.wp-block-quote,
+.wp-block-quote p,
 .wp-block-quote.is-large p,
 .wp-block-quote.is-style-large p {
   line-height: 1.2;
