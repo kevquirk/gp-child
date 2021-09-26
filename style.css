@@ -212,6 +212,7 @@ h2.gb-headline-074e1a3b a:hover {
   display: block;
   position: relative;
   font-size: 1.2rem;
+  font-weight: bold;
   font-family: var(--sans-font);
   top: -2.25rem;
   background: var(--light);
