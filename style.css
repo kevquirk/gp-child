@@ -237,8 +237,8 @@ h2.gb-headline-074e1a3b a:hover {
   font-size: 1.4rem;
 }
 
-.wp-block-quote.is-style-large,
-.wp-block-quote {
+.wp-block-quote.is-style-large::before,
+.wp-block-quote::before {
   content: open-quote;
   width: .75rem;
 }
