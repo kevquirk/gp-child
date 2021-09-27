@@ -36,6 +36,7 @@ body {
   font-weight: bold !important;
 }
 
+.wp-block-quote,
 .wp-block-quote.is-style-large {
   display: block !important;
   margin: 3em auto !important;
