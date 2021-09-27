@@ -690,14 +690,14 @@ th {
 }
 
 .catlist a {
-  text-decoration: underline;
-  text-decoration-thickness: .1rem;
+  text-decoration: underline !important;
+  text-decoration-thickness: .1rem !important;
 }
 
 .catlist a:hover,
 .catlist a:active {
-  color: var(--mid);
-  text-decoration-style: dotted;
+  color: var(--mid) !important;
+  text-decoration-style: dotted !important;
 }
 
 /* Hide titles on category archives */
