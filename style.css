@@ -689,6 +689,17 @@ th {
   margin-right: 0;
 }
 
+.catlist a {
+  text-decoration: underline;
+  text-decoration-thickness: .1rem;
+}
+
+.catlist a:hover,
+.catlist a:active {
+  color: var(--mid);
+  text-decoration-style: dotted;
+}
+
 /* Hide titles on category archives */
 .page-header {
   display: none;
