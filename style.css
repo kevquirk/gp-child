@@ -211,10 +211,10 @@ h2.gb-headline-074e1a3b a:hover {
 .wp-block-quote::before {
   display: block;
   position: relative;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
   font-family: var(--sans-font);
-  top: -2.25rem;
+  top: -3rem;
   background: var(--light);
   margin: 0 auto;
 }
