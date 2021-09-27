@@ -22,6 +22,7 @@ body {
 .notice-red {
   background: none;
   border-right: none !important;
+  border-left: none !important;
 }
 
 .wp-block-rss {
