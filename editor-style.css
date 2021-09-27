@@ -72,7 +72,7 @@
       url('/wp-content/themes/generatepress_child/fonts/meta-serif/bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-html {
+.editor-styles-wrapper {
   font-family: "Fira Sans Condensed";
 }
 
