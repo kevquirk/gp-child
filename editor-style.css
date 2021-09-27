@@ -1,3 +1,10 @@
+/* Global colour variables */
+ :root {
+    --serif-font: "Meta Serif", Georgia, "Times New Roman", serif;
+    --sans-font: "Fira Sans Condensed", Arial, sans-serif;
+    --mono-font: "Fira Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+ }
+
 /* Load custom fonts */
 
 /* fira-sans-condensed-regular - latin */
