@@ -221,7 +221,9 @@ h2.gb-headline-074e1a3b a:hover {
 
 .tldr::before {
   content: " TL;DR ";
-  width: 6rem;
+  font-size: 1.2rem;
+  width: 4rem;
+  margin-top: .5rem;
 }
 
 .notice::before {
