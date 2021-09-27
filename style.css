@@ -683,7 +683,7 @@ th {
 
 .catlist a:hover,
 .catlist a:active {
-  color: var(--mid) !important;
+  color: var(--accent) !important;
   text-decoration-style: dotted !important;
 }
 
