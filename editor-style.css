@@ -2,8 +2,7 @@ body {
     font-family: var(--sans-font) !important;
 }
 
-.editor-styles-wrapper h2,
-.editor-styles-wrapper h3 {
+h2, h3 {
   margin-top: 4rem !important;
 }
 
