@@ -340,18 +340,6 @@ figcaption {
   display: none;
 }
 
-/* Format categories in post header */
-.post-category-buttons a {
-  border: 2px solid var(--dark);
-  color: var(--dark);
-  padding: 5px 10px;
-}
-
-.post-category-buttons a:hover {
-  background: var(--dark);
-  color: var(--accent-bg);
-}
-
 input.search-field {
   border-radius: 0;
   appearance: none;
