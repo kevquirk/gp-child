@@ -213,15 +213,16 @@ h2.gb-headline-074e1a3b a:hover {
   position: relative;
   font-size: 2rem;
   font-weight: bold;
+  line-height: 1;
   font-family: var(--sans-font);
-  top: -3rem;
+  top: -2.5rem;
   background: var(--light);
   margin: 0 auto;
 }
 
 .tldr::before {
   content: " TL;DR ";
-  width: 4rem;
+  width: 6rem;
 }
 
 .notice::before {
