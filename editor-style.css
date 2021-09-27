@@ -41,3 +41,7 @@ body {
   display: block !important;
   margin: 3em auto !important;
 }
+
+.wp-block-quote {
+  border-left: none !important;
+}
