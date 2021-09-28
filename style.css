@@ -356,7 +356,7 @@ code, kbd, tt, var {
   font-size: 1.1rem;
   color: var(--dark);
   background: #EFEFEF;
-  padding: 5px;
+  padding: 2px 5px;
   border: 1px solid #C2C5CC;
 }
 
