@@ -138,13 +138,11 @@ html {
   margin-top: 4rem;
 }
 
-.inside-article a {
-  text-decoration: underline;
-  text-decoration-thickness: .1rem;
-}
-
+.inside-article a,
 .inside-article a:hover {
-  text-decoration-style: dotted;
+  text-decoration: underline;
+  text-decoration-thickness: .15rem;
+  text-decoration-color: var(--accent);
 }
 
 .wp-block-button__link {
