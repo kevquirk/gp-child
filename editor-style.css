@@ -2,18 +2,25 @@ body {
     font-family: var(--sans-font) !important;
 }
 
+a,
+a:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--accent) !important;
+  text-decoration-thickness: .15rem !important;
+}
+
 h2, h3 {
   margin-top: 4rem !important;
 }
 
- code {
-   font-size: 15px;
-   padding: 2px 5px;
+code {
+  font-size: 15px;
+  padding: 2px 5px;
  }
 
- pre {
-    background: var(--accent-bg) !important;
-    max-width: 620px !important;
+pre {
+  background: var(--accent-bg) !important;
+  max-width: 620px !important;
 }
 
 .notice,
