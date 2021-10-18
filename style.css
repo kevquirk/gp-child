@@ -145,7 +145,8 @@ html {
   text-decoration-color: var(--accent);
 }
 
-.wp-block-button__link {
+.wp-block-button__link,
+.button {
   text-decoration: none !important;
 }
 
