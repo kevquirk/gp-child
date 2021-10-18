@@ -673,15 +673,12 @@ th {
   margin-right: 0;
 }
 
-.catlist a {
-  text-decoration: underline !important;
-  text-decoration-thickness: .1rem !important;
-}
-
+.catlist a,
 .catlist a:hover,
 .catlist a:active {
-  color: var(--accent) !important;
-  text-decoration-style: dotted !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: .15rem !important;
+  text-decoration-color: var(--accent) !important;
 }
 
 /* Hide titles on category archives */
