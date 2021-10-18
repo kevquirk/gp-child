@@ -318,9 +318,9 @@ cite {
   text-decoration-thickness: .15rem;
 }
 
-/* Made Gutenberd wide images work */
+/* Make Gutenberd wide images work */
 @media(min-width: 768px) {
-  .single .entry-content .alignwide {
+  .wp-block-image.alignwide {
       margin-left: -80px;
       width: calc(100% + 160px);
       max-width: calc(100% + 160px);
