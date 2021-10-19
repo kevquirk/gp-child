@@ -145,6 +145,11 @@ html {
   text-decoration-color: var(--accent);
 }
 
+/* Fix Button links */
+.gb-button-wrapper a:hover {
+  text-decoration: none !important;
+}
+
 .wp-block-button__link,
 .button {
   text-decoration: none !important;
