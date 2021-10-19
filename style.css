@@ -610,6 +610,14 @@ th {
   background-color: var(--mid) !important;
 }
 
+.ngl-form-errors {
+  margin: 1.5rem 0 .75rem 0;
+}
+
+.ngl-form-label {
+  display: none;
+}
+
 /** Custom colours for Gutenberg editor **/
 
 /** Dark Blue **/
