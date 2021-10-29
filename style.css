@@ -195,8 +195,6 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .tldr,
-.medium,
-.has-medium-font-size,
 .notice,
 .notice-red,
 .wp-block-quote.is-style-large,
@@ -210,8 +208,6 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .tldr::before,
-.medium::before,
-.has-medium-font-size::before,
 .notice::before,
 .notice-red::before,
 .wp-block-quote.is-style-large::before,
