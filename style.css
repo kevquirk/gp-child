@@ -272,10 +272,6 @@ blockquote {
   font-style: normal !important;
 }
 
-blockquote p {
-  margin: 0 !important;
-}
-
 .wp-block-quote,
 .wp-block-quote.is-style-large {
   border-color: var(--mid);
@@ -286,8 +282,6 @@ blockquote p {
 .wp-block-quote.is-large p,
 .wp-block-quote.is-style-large p {
   font-size: 1.5rem;
-  margin: 2rem 0;
-  padding: .4rem .8rem;
   font-family: var(--serif-font);
   font-style: italic;
 }
