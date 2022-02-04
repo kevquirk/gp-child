@@ -32,14 +32,6 @@ pre {
   max-width: 620px !important;
 }
 
-.notice,
-.notice-blue,
-.notice-red {
-  background: none;
-  border-right: none !important;
-  border-left: none !important;
-}
-
 .wp-block-rss {
   margin: 2em auto !important;
   padding-left: 0 !important;
@@ -48,23 +40,4 @@ pre {
 .wp-block-rss a {
   font-size: 1.2em !important;
   font-weight: bold !important;
-}
-
-.wp-block-quote,
-.wp-block-quote.is-style-large {
-  display: block !important;
-  margin: 3em auto !important;
-}
-
-.wp-block-quote {
-  border-left: none !important;
-}
-
-/* Make Gutenberd wide images work */
-@media(min-width: 768px) {
-  .wp-block-image.alignwide {
-      margin-left: -80px !important;
-      width: calc(100% + 160px) !important;
-      max-width: calc(100% + 160px) !important;
-  }
 }
