@@ -245,12 +245,12 @@ h2.gb-headline-074e1a3b a:hover {
 }
 
 .notice::before {
-  content: url(/public_html/wp-content/themes/generatepress_child/images/info.svg);
+  content: url(/wp-content/themes/generatepress_child/images/info.svg);
   width: 3rem;
 }
 
 .notice-red::before {
-  content: url(/public_html/wp-content/themes/generatepress_child/images/info.svg);
+  content: url(/wp-content/themes/generatepress_child/images/info.svg);
   width: 3rem;
 }
 
