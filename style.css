@@ -260,12 +260,6 @@ h2.gb-headline-074e1a3b a:hover {
   font-size: 1.4rem;
 }
 
-.wp-block-quote.is-style-large::before,
-.wp-block-quote::before {
-  content: " 💬 ";
-  width: 3rem;
-}
-
 .tldr,
 .medium,
 .has-medium-font-size {
@@ -287,9 +281,12 @@ blockquote {
 .wp-block-quote p,
 .wp-block-quote.is-large p,
 .wp-block-quote.is-style-large p {
-  line-height: 1.2;
-  margin-bottom: 1rem;
-  font-style: normal !important;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  padding: .4rem .8rem;
+  border-left: .35rem solid var(--mid);
+  font-family: var(--serif-font);
+  font-style: italic;
 }
 
 .wp-block-quote.is-style-large {
