@@ -173,7 +173,7 @@ h2.gb-headline-074e1a3b a {
   color: var(--light) !important;
   font-weight: bold;
   padding: .5rem 1rem;
-  transition: .1s all ease-in-out;
+  transition: .25s .1s ease-in-out;
   display: inline-block;
 }
 
