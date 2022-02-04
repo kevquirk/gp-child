@@ -274,7 +274,7 @@ blockquote {
 
 .wp-block-quote,
 .wp-block-quote.is-style-large {
-  border-colr: var(--mid);
+  border-color: var(--mid);
   margin: 1rem 0 !important;
 }
 
