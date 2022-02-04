@@ -272,12 +272,6 @@ blockquote {
   font-style: normal !important;
 }
 
-.wp-block-quote,
-.wp-block-quote.is-style-large {
-  border-left: none;
-  margin: 4rem 0 !important;
-}
-
 .wp-block-quote p,
 .wp-block-quote.is-large p,
 .wp-block-quote.is-style-large p {
