@@ -2,6 +2,11 @@ body {
     font-family: var(--sans-font) !important;
 }
 
+.is-root-container.block-editor-block-list__layout {
+  max-width: 40rem;
+  margin: 4rem auto;
+}
+
 a,
 a:hover {
   text-decoration: underline !important;
