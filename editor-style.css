@@ -7,6 +7,10 @@ body {
   margin: 4rem auto !important;
 }
 
+.edit-post-visual-editor__post-title-wrapper {
+  text-align: center !important;
+}
+
 a,
 a:hover {
   text-decoration: underline !important;
