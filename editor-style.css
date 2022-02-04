@@ -45,3 +45,7 @@ pre {
 .wp-block-quote {
   border-color: var(--mid) !important;
 }
+
+.editor-styles-wrapper cite {
+  margin-top: 1.5rem !important;
+}
