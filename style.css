@@ -194,24 +194,20 @@ h2.gb-headline-074e1a3b a:hover {
   color: var(--dark) !important;
 }
 
-.tldr,
-.notice,
-.notice-red,
-.wp-block-quote.is-style-large,
-.wp-block-quote {
+/* TL;DR Block */
+.tldr {
   font-family: var(--serif-font);
+  font-size: 1.6rem;
   border-top: 2px solid var(--accent-bg);
   border-bottom: 2px solid var(--accent-bg);
   padding: 1.5rem 0 3rem 0;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .tldr::before,
 .notice::before,
-.notice-red::before,
-.wp-block-quote.is-style-large::before,
-.wp-block-quote::before {
+.notice-red::before {
   display: block;
   position: relative;
   font-size: 2rem;
@@ -229,13 +225,32 @@ h2.gb-headline-074e1a3b a:hover {
   margin-top: .3rem;
 }
 
+/* Notice box */
+.notice,
+.notice-red,
+.update {
+  background: var(--accent-bg);
+  border: 2px solid var(--dark);
+  padding: .5rem 1rem 2.5rem 1rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.notice::before,
+.notice-red::before {
+  width: 3rem;
+  top: -1.5rem;
+  text-align: center;
+  background: none;
+}
+
 .notice::before {
-  content: " ℹ️  ";
+  content: url(/public_html/wp-content/themes/generatepress_child/images/info.svg);
   width: 3rem;
 }
 
 .notice-red::before {
-  content: " ⚠️ ";
+  content: url(/public_html/wp-content/themes/generatepress_child/images/info.svg);
   width: 3rem;
 }
 
