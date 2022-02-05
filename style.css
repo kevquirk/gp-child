@@ -103,7 +103,8 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
+body,
+.subscribe-form input {
   font-family: var(--sans-font);
 }
 
@@ -580,11 +581,6 @@ th {
 }
 
 /* Subscribe form */
-.subscribe-form h2 {
-  margin: 0;
-  font-size: 2rem;
-}
-
 .subscribe-form input#submit {
   background: var(--accent) !important;
   width: 100%;
