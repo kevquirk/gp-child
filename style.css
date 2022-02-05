@@ -103,7 +103,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+* {
   font-family: var(--sans-font);
 }
 
@@ -586,8 +586,8 @@ th {
 }
 
 .subscribe-form input#submit {
-  background: var(--accent);
-  width: 100%
+  background: var(--accent) !important;
+  width: 100%;
 }
 
 .subscribe-form input#bd-email {
