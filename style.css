@@ -582,8 +582,9 @@ th {
 
 /* Subscribe form */
 .subscribe-form input#submit {
-  background: var(--accent) !important;
+  background: var(--accent);
   width: 100%;
+  margin-top: .5rem;
 }
 
 .subscribe-form input#bd-email {
@@ -595,13 +596,8 @@ th {
   margin: 0 auto;
 }
 
-.subscribe-form a {
-  color: var(--light);
-  font-size: 1rem;
-}
-
-.subscribe-form a:hover {
-  color: var(--accent);
+.subscribe-form input#submit:hover {
+  color: var(--mid);
 }
 
 /* Select all on public key */
