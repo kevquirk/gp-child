@@ -579,92 +579,33 @@ th {
   margin: 1.5em auto;
 }
 
-/* Format newsletter post embeds */
-.ngl-article span {
-  font-size: 1.3em !important;
-  transition: .2s;
+/* Subscribe form */
+.subscribe-form h2 {
+  margin: 0;
+  font-size: 2rem;
 }
 
-.ngl-article span:hover {
-  color: var(--mid);
+.subscribe-form input#submit {
+  background: var(--accent);
+  width: 100%
 }
 
-.ngl-article-excerpt {
-  font-size: 1.1em !important;
-  color: var(--dark) !important;
+.subscribe-form input#bd-email {
+  width: 100%;
 }
 
-/* Format newsletter subscribe form */
-.ngl-form {
-  margin-bottom: 0px !important;
+.subscribe-form-fields {
+  max-width: 400px;
+  margin: 0 auto;
 }
 
-.ngl-form-input-text, input.ngl-form-input-text {
-  padding: 20px 10px !important;
-  border: none !important;
+.subscribe-form a {
+  color: var(--light);
+  font-size: 1rem;
 }
 
-.ngl-form.ngl-portrait .ngl-form-button {
-  font-size: 20px !important;
-  border: none !important;
-}
-
-.ngl-form.ngl-portrait .ngl-form-button:hover {
-  background-color: var(--mid) !important;
-}
-
-.ngl-form-container {
-  margin-top: 1.5rem;
-}
-
-.ngl-form-errors {
-  margin: 1.5rem 0 -0.75rem 0 !important;
-}
-
-.ngl-form-label {
-  display: none;
-}
-
-/** Custom colours for Gutenberg editor **/
-
-/** Dark Blue **/
-.has-dark-blue-background-color {
-	background-color: #112154;
-}
-.has-dark-blue-color {
-	color: #112154;
-}
-
-/** Mid Blue **/
-.has-mid-blue-background-color {
-	background-color: #2778ba;
-}
-.has-mid-blue-color {
-	color: #2778ba;
-}
-
-/** Light Blue **/
-.has-light-blue-background-color {
-	background-color: #dbe5ee;
-}
-.has-light-blue-color {
-	color: #dbe5ee;
-}
-
-/** Accent Light Blue **/
-.has-accent-light-blue-background-color {
-	background-color: #c7d4e0;
-}
-.has-accent-light-blue-color {
-	color: #c7d4e0;
-}
-
-/** Pink **/
-.has-pink-background-color {
-	background-color: #ba0076;
-}
-.has-pink-color {
-	color: #ba0076;
+.subscribe-form a:hover {
+  color: var(--accent);
 }
 
 /* Select all on public key */
