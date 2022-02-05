@@ -712,7 +712,7 @@ th {
 }
 
 /* Full bleed */
-.full-width {
+.full-bleed {
   width: 100vw;
   position: relative;
   left: 50%;
