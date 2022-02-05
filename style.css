@@ -597,7 +597,7 @@ th {
 }
 
 .subscribe-form input#submit:hover {
-  color: var(--mid);
+  background: var(--mid);
 }
 
 /* Select all on public key */
