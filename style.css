@@ -720,3 +720,14 @@ th {
   margin-left: -50vw;
   margin-right: -50vw;
 }
+
+.icon {
+  vertical-align: sub;
+  padding-right: .25rem;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
