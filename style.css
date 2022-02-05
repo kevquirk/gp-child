@@ -334,7 +334,7 @@ cite {
 @media(min-width: 768px) {
   .wp-block-image.alignwide,
   .wide {
-      margin-left: -150px;
+      margin-left: -300px;
       width: calc(100% + 600px);
       max-width: calc(100% + 600px);
   }
