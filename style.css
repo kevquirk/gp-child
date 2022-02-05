@@ -330,14 +330,11 @@ cite {
   text-decoration-thickness: .15rem;
 }
 
-/* Make Gutenberd wide images work */
-@media(min-width: 768px) {
-  .wp-block-image.alignwide,
-  .wide {
-      margin-left: -80px;
-      width: calc(100% + 160px);
-      max-width: calc(100% + 160px);
-  }
+.wp-block-image.alignwide,
+.wide {
+  margin-left: -150px;
+  width: calc(100% + 300px);
+  max-width: calc(100% + 300px);
 }
 
 figcaption {
