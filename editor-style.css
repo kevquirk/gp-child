@@ -72,6 +72,6 @@ pre {
   }
 }
 
-.editor-styles-wrapper .wp-block-separator {
+.editor-styles-wrapper .wp-block-separator.is-style-dots {
   border: none !important;
 }
