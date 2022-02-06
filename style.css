@@ -490,11 +490,6 @@ pre code {
   font-weight: bold;
 }
 
-/* Fix old notices using WP background */
-.has-background {
-  background: var(--dark);
-}
-
 .paging-navigation a {
   text-decoration: underline;
   text-decoration-thickness: .15rem;
