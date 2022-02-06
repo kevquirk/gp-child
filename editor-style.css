@@ -71,3 +71,7 @@ pre {
     margin-right: -50vw !important;
   }
 }
+
+.editor-styles-wrapper .wp-block-separator {
+  border: none !important;
+}
