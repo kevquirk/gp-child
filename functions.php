@@ -35,35 +35,6 @@ add_filter( 'get_the_archive_title', function ($title) {
       return $title;
   });
 
-// Add support for custom colour pallette in Gutenberg.
-add_theme_support( 'editor-color-palette', array(
-	array(
-		'name' => __( 'dark-blue', 'themeLangDomain' ),
-		'slug' => 'dark-blue',
-		'color' => '#112154',
-	),
-  array(
-		'name' => __( 'mid-blue', 'themeLangDomain' ),
-		'slug' => 'mid-blue',
-		'color' => '#2778ba',
-	),
-  array(
-		'name' => __( 'light-blue', 'themeLangDomain' ),
-		'slug' => 'light-blue',
-		'color' => '#dbe5ee',
-	),
-  array(
-		'name' => __( 'accent-light-blue', 'themeLangDomain' ),
-		'slug' => 'accent-light-blue',
-		'color' => '#c7d4e0',
-	),
-  array(
-		'name' => __( 'pink', 'themeLangDomain' ),
-		'slug' => 'pink',
-		'color' => '#ba0076',
-	),
-) );
-
 // Increase scroll to top speed
 add_filter( 'generate_back_to_top_scroll_speed', 'tu_back_to_top_scroll_speed' );
 function tu_back_to_top_scroll_speed() {
@@ -76,3 +47,18 @@ add_shortcode( 'mailto_title', 'mailto_title' );
 function mailto_title( $atts ) {
     return esc_attr( get_the_title( get_the_ID() ) );
 }
+
+// Add shortcode for inline date
+function wpb_date_today($atts, $content = null) {
+extract( shortcode_atts( array(
+        'format' => ''
+    ), $atts ) );
+
+if ($atts['format'] == '') {
+$date_time .= date(get_option('date_format'));
+}  else {
+$date_time .= date($atts['format']);
+}
+return $date_time;
+}
+add_shortcode('date','wpb_date_today');
