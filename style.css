@@ -332,7 +332,7 @@ cite {
 }
 
 /* Make Gutenberd wide images work */
-@media(min-width: 768px) {
+@media(min-width: 1200px) {
   .wp-block-image.alignwide,
   .wide {
       margin-left: -300px !important;
