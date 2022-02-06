@@ -398,6 +398,10 @@ pre code {
   border: none;
 }
 
+.wp-block-code code {
+  white-space: pre !important;
+}
+
 /* Fix enlightener plugin blocks */
 .EnlighterJSRAW {
   color: var(--dark);
