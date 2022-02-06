@@ -356,7 +356,10 @@ cite {
 figcaption {
   font-size: .9rem;
   text-align: center;
-  opacity: .7;
+}
+
+figcaption em {
+  font-style: normal;
 }
 
 /* Hide certain elements that can't be done on the block editor */
