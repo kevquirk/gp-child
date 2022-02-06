@@ -71,3 +71,7 @@ pre {
     margin-right: -50vw !important;
   }
 }
+
+.block-editor-rich-text__editable.wp-block-quote__citation.rich-text {
+  margin-top: 1.5rem !important;
+}
