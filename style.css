@@ -497,7 +497,8 @@ pre code {
 }
 
 /* Format the blogroll banners */
-.blogroll-links a {
+.blogroll-links a,
+.blogroll-links a:hover {
   text-decoration: underline !important;
   text-decoration-thickness: .15rem !important;
   text-decoration-color: var(--accent) !important;
