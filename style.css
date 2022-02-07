@@ -615,3 +615,7 @@ th {
   stroke: currentColor;
   fill: currentColor;
 }
+
+.wp-block-latest-posts.wp-block-latest-posts__list {
+  margin-left: 0;
+}
