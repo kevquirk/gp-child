@@ -1,9 +1,7 @@
 name: Cloudways API Git Pull
 
 on:
-  push:
-    tags:
-      - "*"
+  push
 
 jobs:
   tag:
