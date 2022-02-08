@@ -17,8 +17,6 @@ add_theme_support('editor-styles');
 add_editor_style( 'style.css' );
 add_editor_style( 'editor-style.css' );
 
-add_filter( 'pre_get_posts', 'exclude_category_home' );
-
 // Remove "Archive:", "Category:" etc.
 add_filter( 'get_the_archive_title', function ($title) {
       if ( is_category() ) {
