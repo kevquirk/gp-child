@@ -7,7 +7,7 @@
  Template:     generatepress
  Version:      1.2
 */
- 
+
 /** Global colour variables **/
  :root {
     --dark: #112154;
@@ -617,4 +617,10 @@ th {
 
 .wp-block-latest-posts.wp-block-latest-posts__list {
   margin-left: 0;
+}
+
+/* Adjust mobile menu toggle for hamburger */
+.menu-toggle {
+  font-size: 1.75rem;
+  margin-top: -0.25rem;
 }
