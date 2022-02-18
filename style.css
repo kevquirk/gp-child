@@ -624,3 +624,9 @@ th {
   font-size: 1.75rem;
   margin-top: -0.25rem;
 }
+
+/* Centre twitter embeds on page */
+.wp-block-embed.is-type-rich.is-provider-twitter.wp-block-embed-twitter {
+  display: flex;
+  justify-content: center;
+}
