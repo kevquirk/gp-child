@@ -535,6 +535,7 @@ th {
   background: var(--accent);
   width: 100%;
   margin-top: .5rem;
+  border-radius: 0 !important;
 }
 
 .subscribe-form input#bd-email {
