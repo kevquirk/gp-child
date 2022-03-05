@@ -51,7 +51,7 @@ pre {
 }
 
 /* Make Gutenberd wide images work */
-@media(min-width: 1200px) {
+@media(min-width: 840px) {
   [data-align="wide"] > .wp-block-image img,
   .wide {
       margin-left: -100px !important;
