@@ -68,3 +68,12 @@ add_filter( 'generate_svg_icon_element', function( $output, $icon ) {
     }
     return $output;
 }, 10, 2 );
+
+// Add reply link to RSS feed
+add_filter( "the_content_feed", "feed_comment_via_email" );
+
+function feed_comment_via_email($content)
+{
+   $content .= "<p><a href=\"mailto:hi@kevq.uk" . "?subject=RE:" . get_the_title() . >Reply via email</a></p>";
+   return $content;
+}
