@@ -74,6 +74,6 @@ add_filter( "the_content_feed", "feed_comment_via_email" );
 
 function feed_comment_via_email($content)
 {
-   $content .= "<p><a href=\"mailto:hi@kevq.uk" . "?subject=RE:" . get_the_title() . >Reply via email</a></p>";
+   $content .= "<p><a href=\"mailto: " . get_the_author_meta('user_email') . "?subject=RE: '" . get_the_title() . "'&body=Post link: " . get_permalink() . "\">Reply via email</a></p>";
    return $content;
 }
