@@ -636,4 +636,5 @@ th {
 /* Remove webkit formatting on form elements */
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
   -webkit-appearance: none;
+  font-family: inherit;
 }
