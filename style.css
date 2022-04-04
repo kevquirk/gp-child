@@ -570,6 +570,7 @@ th {
   list-style-type: none;
   margin-left: 0;
   text-align: center;
+  word-wrap: break-word;
 }
 
 .catlist li {
