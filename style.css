@@ -571,6 +571,8 @@ th {
   border-color: var(--text);
   padding: 0.5rem 1rem;
   font-size: 1rem;
+  margin: 0 auto;
+  display: block;
 }
 
 /* Hide titles on category archives */
