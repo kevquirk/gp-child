@@ -566,29 +566,11 @@ th {
 }
 
 /* Format category list on posts page */
-.catlist {
-  list-style-type: none;
-  margin-left: 0;
-  text-align: center;
-  word-wrap: break-word;
-}
-
-.catlist li {
+#wp-block-categories-1 {
+  color: var(--text);
+  border-color: var(--text);
+  padding: 0.5rem 1rem;
   font-size: 1rem;
-  display: inline;
-  margin-right: 1rem;
-}
-
-.catlist li:last-child {
-  margin-right: 0;
-}
-
-.catlist a,
-.catlist a:hover,
-.catlist a:active {
-  text-decoration: underline !important;
-  text-decoration-thickness: .15rem !important;
-  text-decoration-color: var(--accent) !important;
 }
 
 /* Hide titles on category archives */
