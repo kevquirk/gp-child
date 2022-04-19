@@ -625,7 +625,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 
 /* Newsletter Gllue fixes */
 .ngl-form-field {
-  margin-bottom: 5px;
+  margin-bottom: 5px !important;
 }
 
 .ngl-form-label {
@@ -635,6 +635,11 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 .ngl-form-button {
   font-family: var(--sans-font);
   font-size: 1.25rem !important;
+}
+
+.ngl-form-button:hover {
+  background: var(--mid) !important;
+  border-color: var(--mid) !important;
 }
 
 .ngl-form-container {
