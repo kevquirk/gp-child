@@ -643,5 +643,5 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 }
 
 .ngl-form-container {
-  margin-top: 1.5rem;
+  margin-top: 1.5rem !important;
 }
