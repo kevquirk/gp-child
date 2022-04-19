@@ -622,3 +622,13 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
   -webkit-appearance: none;
   font-family: inherit;
 }
+
+/* Newsletter Gllue fixes */
+.ngl-form-label {
+  display: none;
+}
+
+.ngl-form-button {
+  font-family: var(--sans-font);
+  font-size: 1.25rem !important;
+}
