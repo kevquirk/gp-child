@@ -624,6 +624,10 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 }
 
 /* Newsletter Gllue fixes */
+.ngl-form-field {
+  margin-bottom: 5px;
+}
+
 .ngl-form-label {
   display: none;
 }
@@ -631,4 +635,8 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 .ngl-form-button {
   font-family: var(--sans-font);
   font-size: 1.25rem !important;
+}
+
+.ngl-form-container {
+  margin-top: 1.5rem;
 }
