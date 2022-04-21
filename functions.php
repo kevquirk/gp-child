@@ -39,28 +39,6 @@ function tu_back_to_top_scroll_speed() {
     return 50; // milliseconds
 }
 
-// Add shortcode for reply via mail link
-add_shortcode( 'mailto_title', 'mailto_title' );
-
-function mailto_title( $atts ) {
-    return esc_attr( get_the_title( get_the_ID() ) );
-}
-
-// Add shortcode for inline date
-function wpb_date_today($atts, $content = null) {
-extract( shortcode_atts( array(
-        'format' => ''
-    ), $atts ) );
-
-if ($atts['format'] == '') {
-$date_time .= date(get_option('date_format'));
-}  else {
-$date_time .= date($atts['format']);
-}
-return $date_time;
-}
-add_shortcode('date','wpb_date_today');
-
 // Replace menu icon with hamburger
 add_filter( 'generate_svg_icon_element', function( $output, $icon ) {
     if ( 'menu-bars' === $icon ) {
@@ -68,6 +46,13 @@ add_filter( 'generate_svg_icon_element', function( $output, $icon ) {
     }
     return $output;
 }, 10, 2 );
+
+// Add shortcode for reply via mail link
+add_shortcode( 'mailto_title', 'mailto_title' );
+
+function mailto_title( $atts ) {
+    return esc_attr( get_the_title( get_the_ID() ) );
+}
 
 // Add reply link to RSS feed
 add_filter( "the_content_feed", "feed_comment_via_email" );
