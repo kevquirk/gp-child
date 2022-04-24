@@ -142,6 +142,10 @@ body,
   margin-top: 4rem;
 }
 
+.h-reset {
+  margin-top: 0;
+}
+
 .inside-article a,
 .inside-article a:hover {
   text-decoration: underline;
