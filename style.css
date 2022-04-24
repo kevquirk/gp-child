@@ -627,7 +627,6 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 details {
   background: var(--accent-bg);
   border: 1px solid var(--dark);
-  border-radius: 5px;
   margin-bottom: 1.5rem;
 }
 
