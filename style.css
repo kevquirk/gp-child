@@ -628,7 +628,7 @@ details {
   background: var(--accent-bg);
   border: 1px solid var(--dark);
   border-radius: 5px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 summary {
