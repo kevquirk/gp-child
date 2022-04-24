@@ -623,25 +623,33 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
   font-family: inherit;
 }
 
-/* Newsletter Gllue fixes */
-.ngl-form-field {
-  margin-bottom: 5px !important;
+/* Format details box */
+details {
+  background: var(--accent-bg);
+  border: 1px solid var(--dark);
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
-.ngl-form-label {
-  display: none;
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.6rem 1rem;
 }
 
-.ngl-form-button {
-  font-family: var(--sans-font);
-  font-size: 1.25rem !important;
+details[open] {
+  padding: 0.6rem 1rem 0.75rem 1rem;
 }
 
-.ngl-form-button:hover {
-  background: var(--mid) !important;
-  border-color: var(--mid) !important;
+details[open] summary + * {
+  margin-top: 0;
 }
 
-.ngl-form-container {
-  margin-top: 1.5rem !important;
+details[open] summary {
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+details[open] > *:last-child {
+  margin-bottom: 1.5rem;
 }
